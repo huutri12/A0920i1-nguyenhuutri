@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra năm</title>
+</head>
+<body>
+    <script>
+        let year= parseInt(prompt("Enter a Year"));
+        let isLeapYear = false;
+
+        let hoho4= year % 4 == 0;
+        if (hoho4){
+            let hoho100 = year % 100 == 0;
+            if (hoho100){
+                let hoho400 = year % 400 == 0;
+                if(hoho400){
+                    isLeapYear = true;
+                }
+            } else {
+                isLeapYear = true;
+            }
+        }
+        if (isLeapYear){
+            alert(year + " Is a leap Year");
+        }else{
+            alert(year + " Is not a leap Year");
+        }
+    </script>
+</body>
+</html>

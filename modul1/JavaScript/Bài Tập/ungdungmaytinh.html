@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="num">
+<table border="1" width="300px" >
+    <tr>
+        <td onclick="inputNumber(1)" style="color: blue">1</td>
+        <td onclick="inputNumber(2)"style="color: blue">2</td>
+        <td onclick="inputNumber(3)"style="color: blue">3</td>
+        <td onclick="inputNumber('+')"style="color: blue">+</td>
+    </tr>
+    <tr>
+        <td onclick="inputNumber(4)"style="color: blue">4</td>
+        <td onclick="inputNumber(5)"style="color: blue">5</td>
+        <td onclick="inputNumber(6)"style="color: blue">6</td>
+        <td onclick="inputNumber('-')"style="color: blue">-</td>
+    </tr>
+    <tr>
+        <td onclick="inputNumber(7)"style="color: blue">7</td>
+        <td onclick="inputNumber(8)"style="color: blue">8</td>
+        <td onclick="inputNumber(9)"style="color: blue">9</td>
+        <td onclick="inputNumber('*')"style="color: blue">*</td>
+    </tr>
+    <tr>
+        <td onclick="clearNumber()"style="color: blue">C</td>
+        <td onclick="inputNumber(0)"style="color: blue">0</td>
+        <td onclick="calculator()"style="color: blue">=</td>
+        <td onclick="inputNumber('/')"style="color: blue">/</td>
+    </tr>
+</table>
+<script>
+    let temp =false;
+    function clearNumber() {
+        document.getElementById("num").value ="";
+    }
+    function inputNumber(number) {
+        if(temp) {
+            if (number == "+" || number == "-" || number == "*" || number == "/") {
+                document.getElementById("num").value += number
+            } else {
+                document.getElementById("num").value = number;
+            }
+        } else {
+            document.getElementById("num").value += number;
+        }
+        temp =false;
+    }
+    function calculator() {
+        document.getElementById("num").value=(eval(document.getElementById("num").value))
+        temp =true;
+    }
+</script>
+</body>
+</html>

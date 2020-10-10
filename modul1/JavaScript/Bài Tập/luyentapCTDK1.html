@@ -73,11 +73,11 @@
             let baikiemtra = parseInt(prompt("Nhập điểm bài kiểm tra :",''));
             let diemgiuaky = parseInt((prompt("Nhập điểm giữa kỳ :",'')));
             let diemcuoiky = parseInt(prompt("Nhập điểm cuối kỳ :",''));
-            let trungbinh = parseInt((baikiemtra+diemcuoiky+diemgiuaky)/3);
-            if(trungbinh >= 9.0) alert("Điểm Đạt Loại A");
-            else if(trungbinh >= 7.0 && trungbinh < 9.0) alert("Điểm Đạt Loại B");
-            else if(trungbinh>=5.0 && trungbinh < 7.0) alert("Điểm Đạt Loại C");
-            else if(trungbinh < 5.0) alert("Điểm Đạt Loại F");
+            let trungbinh = parseInt((baikiemtra + diemcuoiky + diemgiuaky)/3);
+            if(trungbinh >= 9.0) alert("Điểm Đạt Loại A" + trungbinh);
+            else if(trungbinh >= 7.0 && trungbinh < 9.0) alert("Điểm Đạt Loại B" + trungbinh);
+            else if(trungbinh>=5.0 && trungbinh < 7.0) alert("Điểm Đạt Loại C" + trungbinh);
+            else if(trungbinh < 5.0) alert("Điểm Đạt Loại F" + trungbinh);
             else alert("Không Hợp Lệ !");
         }
 

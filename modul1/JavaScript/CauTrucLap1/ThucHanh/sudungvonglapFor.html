@@ -8,12 +8,35 @@
     <h2>Java Script Loops</h2>
     <p id="demo"></p>
     <script>
-        let text = "";
-        let i;
-        for(i = 0 ; i < 5 ; i++){
-            text += "The number is " + i +"<br>";
+       let xem = prompt("Nhập bài tập muốn xem");
+        switch (xem) {
+            case '1':
+                bt1();
+                break;
+            case '2':
+                bt2();
+                break;
         }
-        document.getElementById("demo").innerHTML = text;
+        //bai1:
+        function bt1(){
+            let text = "";
+            let i;
+            for(i = 0 ; i < 5 ; i++){
+                text += "The number is " + i +"<br>";
+            }
+            document.getElementById("demo").innerHTML = text;
+        }
+        //bai2:
+        function bt2() {
+            let num = prompt("Enter your number");
+            let total = 0;
+            let i = 1;
+            for(; i <= num ; i++ ){
+                total += i;
+            }
+            alert(total);
+        }
+
     </script>
 </body>
 </html>

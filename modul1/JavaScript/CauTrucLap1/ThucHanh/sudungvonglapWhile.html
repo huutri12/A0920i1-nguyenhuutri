@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hihi</title>
+</head>
+<body>
+<script>
+    let xem = prompt("Nhập bài tập muốn xem");
+    switch (xem) {
+        case '1':
+            bt1();
+            break;
+        case '2':
+            bt2();
+            break;
+    }
+    //bai1:
+    function bt1(){
+        let num = prompt("Enter your number");
+        let total = 0;
+        while (num != -1){
+            num = prompt("Enter your number");
+            alert(num);
+            total += num;
+            alert(total);
+        }
+    }
+    //bai2:
+    function bt2() {
+        let i = 1;
+        while (i < 100) {
+            document.write("<hr width = " + i + "%>");
+            i++;
+        }
+    }
+
+
+</script>
+</body>
+</html>

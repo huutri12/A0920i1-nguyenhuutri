@@ -7,23 +7,18 @@
 <body>
     <script>
 
-        let n = parseInt(prompt("nhập số n"))
-         let dem = true;
-         if(n < 2){
-            dem = false;
-        }else{
-          for(let i=2;i < Math.sqrt(n); i++){
-               if(n % i == 0){
-                   dem = false;
-                 }
+        let n = parseInt(prompt("nhập số n"));
+        let dem = 0;
+        for(let i=2 ; i <= Math.sqrt(n) ; i++){
+            if(n % i == 0){
+                dem++;
             }
-         }
-
-        if(dem == true){
+        }
+        if(dem == 0){
             alert('Đây là SNT')
         }else{
-           alert('Đây không phải là SNT');
-         }
+            alert('Đây không phải là SNT');
+        }
 
     </script>
 </body>

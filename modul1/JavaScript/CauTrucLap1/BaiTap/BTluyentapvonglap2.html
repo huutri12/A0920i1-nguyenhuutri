@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let danhsach = prompt("Mời bạn nhập bài muốn xem");
+        switch (danhsach) {
+            case '1':
+                bt1();
+                break;
+            case '2':
+                bt2();
+                break;
+            case '3':
+                bt3();
+                break;
+            case '4':
+                bt4();
+                break;
+            case '5':
+                bt5();
+                break;
+            case '6':
+                bt6();
+                break;
+            case '7':
+                bt7();
+                break;
+        }
+        //bt1:
+        function bt1() {
+            let n = parseInt(prompt("Nhập vào n : " , ''));
+            let i;
+            let fib = [];
+            fib[0] = 0;
+            fib[1] = 1;
+            for (i = 2; i <= n; i++) {
+                fib[i] = fib[i - 2] + fib[i - 1];
+                console.log(fib[i]);
+            }
+       }
+       //bt2:
+        function bt2() {
+            let n = parseInt(prompt("nhập số muốn tính : ",''));
+            let factorial = 1;
+            for(let i = 1 ; i <= n ; i++){
+                factorial *= i;
+            }
+            document.write(factorial);
+        }
+        //bt3:
+        function bt3() {
+            let i;
+            let j;
+            // let n= parseInt(prompt("Nhập vào : " ,''));
+            for (i = 1; i <= 5; ++i){
+                for (j = 1 ; j <= i ; j++){
+                    document.write("*");
+                }
+                document.write("<br>");
+            }
+        }
+        //bt4:
+        function bt4() {
+            let i;
+            let j;
+            for(i = 5; i >= 1 ; --i){
+                for (j = 1 ; j <= i ; j++){
+                    document.write("*");
+                }
+                document.write("<br>");
+            }
+        }
+        //bt5:
+        function bt5() {
+            for (let i = 1; i <= 5; i++) {
+                // khoang trang &nbsp
+                for (let j = i; j <= 4; j++) {
+                    document.writeln('&nbsp&nbsp')
+                }
+                for (let j = 1; j <= i; j++) {
+                    document.writeln('*')
+                }
+
+                document.writeln('<br>')
+            }
+        }
+        //bt6:
+        function bt6() {
+            let i;
+            let j;
+            for(i = 5; i >= 1 ; --i){
+                for(let j = i ; j <= 4 ; j++){
+                    document.write('&nbsp&nbsp');
+                }
+                    for (j = 1 ; j <= i ; j++){
+                    document.write("*");
+                        }
+                document.write("<br>");
+            }
+        }
+        //bt7:
+        function bt7() {
+           // let chieudai =parseInt(prompt("Nhapvao: ",''));
+           // let chieurong=parseInt(prompt("nhap vao",''));
+            for (let i = 1 ; i <= 5 ; i++){
+                    for (let j = 1 ; j <= 10 ; j++){
+                        if(i ==1 || j == 1 || i ==5||j==10 ){
+                            document.write("*");
+                                }else{
+                            document.write('&nbsp&nbsp');
+                                }
+                            }
+                            document.write("<br>");
+                        }
+                    }
+
+
+
+
+    </script>
+</body>
+</html>

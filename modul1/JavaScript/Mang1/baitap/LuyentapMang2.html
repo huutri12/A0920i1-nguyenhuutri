@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LuyenTap2</title>
+</head>
+<body>
+    <script>
+        let danhsach = prompt("Nhap vao bai muon xem");
+        switch (danhsach){
+            case '1':
+                bt1();
+                break;
+            case '2':
+                bt2();
+                break;
+            case '3':
+                bt3();
+                break;
+            case '4':
+                bt4();
+                break;
+            case '5':
+                bt5();
+                break;
+            case '6':
+                bt6();
+                break;
+        }
+        function bt1(){
+            let a = [
+                [1, 2, 1, 24],
+                [8, 11, 9, 4],
+                [7, 0, 7, 27],
+                [7, 4, 28, 14],
+                [3, 10, 26, 7]
+            ];
+            for (let i in a){
+                console.log("row"+i);
+                for (let j in a[i]){
+                    console.log(" "+a[i][j]);
+                }
+            }
+        }
+        //bt2
+        function bt2(){
+            let a = [ 'c', 's', 'c', '2', '6', '1' ];
+            a.reverse();
+           document.writeln(a);
+        }
+        //bt3:
+        function bt3(){
+            
+        }
+    </script>
+</body>
+</html>

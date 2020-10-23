@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        function processConfirm(answer){
+            let result = " ";
+            if(answer){
+                result = "Xin lỗi , Nhưng tôi không yêu bạn";
+            }else{
+                result = "Bạn nghĩ tôi quan tâm đến bạn à ,há há";
+            }
+            return result;
+        }
+        let confirmAnswer = confirm("Bạn có yêu tôi không ?");
+        let theAnswer = processConfirm(confirmAnswer);
+        alert(theAnswer);
+    </script>
+</body>
+</html>

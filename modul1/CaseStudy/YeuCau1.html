@@ -5,15 +5,66 @@
     <title>YeuCau1</title>
 </head>
 <body>
-    <input type="text" name="hovaten">
-    <input type="number" name="socmnd">
-    <input type="date" name="ngaythang">
-    <script>
-        hovaten = prompt("Nhập vào họ và tên")
-        socmnd = prompt("Nhập CMND")
-        ngaythang = prompt("Nhập ngày tháng năm sinh của bạn")
-        email = prompt("Nhập vào email")
-        diachi = prompt("Nhập địa chỉ")
-    </script>
+<form>
+    <table style="background: yellow">
+        <tr>
+            <td><label>Họ Và Tên</label></td>
+            <td><input type="text" name="họ và tên"></td>
+        </tr>
+        <tr>
+            <td><label>Số CMND</label></td>
+            <td><input type="number" name="soCMND"></td>
+        </tr>
+        <tr>
+            <td><label>Date of birth</label></td>
+            <td><input type="date" name="ngày sinh"></td>
+        </tr>
+        <td>
+            <label>Sex</label>
+        <td><label><input name="hobby" value="Male" type="radio" checked/>Male</label>
+            <label><input name="hobby" value="Woman" type="radio"/>Woman</label></td>
+        </td>
+        <tr>
+            <td><label>Email</label> </td>
+            <td><input type="email" name="email"> </td>
+        </tr>
+        </tr>
+        <tr>
+            <td>
+                <label>Address</label>
+            <td><label><textarea cols="20" rows="2"></textarea> </label></td>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Loại Customer</label> </td>
+            <td><select name="class">
+                <option value="cus">Diamond</option>
+                <option value="cus">Platium</option>
+                <option value="cus">Gold</option>
+                <option value="cus">Silver</option>
+                <option value="cus">Member</option>
+            </select> </td>
+        </tr>
+        <tr>
+            <td><label>Giảm giá</label> </td>
+            <td><input type="number" name="giamgia"> </td>
+        </tr>
+        <tr>
+            <td><label>Số Lượng đi kèm</label> </td>
+            <td><input type="number" name="soluong"> </td>
+        </tr>
+        <tr>
+            <td><label>Số Ngày Thuê</label> </td>
+            <td><input type="number" name="giamgia"> </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Registration">
+                <input type="reset" value="Retype">
+            </td>
+        </tr>
+    </table>
+</form>
 </body>
 </html>

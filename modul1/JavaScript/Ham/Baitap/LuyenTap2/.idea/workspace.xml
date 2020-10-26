@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adb18d1f-070e-471b-914d-98317fdd6786" name="Default Changelist" comment="" />
+    <list default="true" id="c6a3ada5-2069-4e51-b2fd-ed8b101063ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bt1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bt2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bt3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bt4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bt5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bt6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bt7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bt8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bt9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,44 +26,34 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
   </component>
-  <component name="ProjectId" id="1jHQGcfrRnkOh85fvQA0681ReYm" />
+  <component name="ProjectId" id="1jPdSVsTxgugs9akbNDN6NJSaE7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/LuyenTap2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="adb18d1f-070e-471b-914d-98317fdd6786" name="Default Changelist" comment="" />
-      <created>1603458442330</created>
+      <changelist id="c6a3ada5-2069-4e51-b2fd-ed8b101063ce" name="Default Changelist" comment="" />
+      <created>1603709660960</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1603458442330</updated>
-      <workItem from="1603458443403" duration="3272000" />
-      <workItem from="1603696683103" duration="28000" />
-      <workItem from="1603696712449" duration="1888000" />
-      <workItem from="1603709637119" duration="24000" />
+      <updated>1603709660960</updated>
+      <workItem from="1603709662007" duration="783000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1603709659522">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1603709659522" />
   </component>
 </project>

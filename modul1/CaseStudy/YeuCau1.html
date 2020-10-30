@@ -5,66 +5,141 @@
     <title>YeuCau1</title>
 </head>
 <body>
-<form>
     <table style="background: yellow">
         <tr>
-            <td><label>Họ Và Tên</label></td>
-            <td><input type="text" name="họ và tên"></td>
+            <td><label>Họ Và Tên :</label></td>
+            <td><input type="text" id="name"></td>
         </tr>
         <tr>
-            <td><label>Số CMND</label></td>
-            <td><input type="number" name="soCMND"></td>
+            <td><label>Số CMND :</label></td>
+            <td><input type="text" id="cmnd"></td>
         </tr>
         <tr>
-            <td><label>Date of birth</label></td>
-            <td><input type="date" name="ngày sinh"></td>
+            <td><label>Date of birth :</label></td>
+            <td><input type="date"id="date"></td>
         </tr>
-        <td>
-            <label>Sex</label>
-        <td><label><input name="hobby" value="Male" type="radio" checked/>Male</label>
-            <label><input name="hobby" value="Woman" type="radio"/>Woman</label></td>
-        </td>
         <tr>
-            <td><label>Email</label> </td>
-            <td><input type="email" name="email"> </td>
+            <td><label>Email :</label> </td>
+            <td><input type="email"id="email"> </td>
         </tr>
         </tr>
         <tr>
             <td>
-                <label>Address</label>
-            <td><label><textarea cols="20" rows="2"></textarea> </label></td>
+                <label>Address :</label>
+            <td><label><textarea cols="20" rows="2" id="address"></textarea> </label></td>
             </td>
         </tr>
         <tr>
-            <td><label>Loại Customer</label> </td>
-            <td><select name="class">
-                <option value="cus">Diamond</option>
-                <option value="cus">Platium</option>
-                <option value="cus">Gold</option>
-                <option value="cus">Silver</option>
-                <option value="cus">Member</option>
+            <td><label>Loại Customer :</label> </td>
+            <td><select  id="customer">
+                <option value="Diamond">Diamond</option>
+                <option value="Platium">Platium</option>
+                <option value="Gold">Gold</option>
+                <option value="Silver">Silver</option>
+                <option value="Member">Member</option>
             </select> </td>
         </tr>
         <tr>
-            <td><label>Giảm giá</label> </td>
-            <td><input type="number" name="giamgia"> </td>
+            <td><label>Giảm giá :</label> </td>
+            <td><input type="number" id="giamgia"> </td>
         </tr>
         <tr>
-            <td><label>Số Lượng đi kèm</label> </td>
-            <td><input type="number" name="soluong"> </td>
+            <td><label>Số Lượng Đi Kèm :</label> </td>
+            <td><input type="number"  id="soluong"> </td>
         </tr>
         <tr>
-            <td><label>Số Ngày Thuê</label> </td>
-            <td><input type="number" name="giamgia"> </td>
+            <td><label>Số Ngày Thuê :</label> </td>
+            <td><input type="number"  id="ngaythue"> </td>
+        </tr>
+        <tr>
+            <td><label>Loại Dịch Vụ :</label> </td>
+            <td><select  id="dichvu">
+                <option value="Villa">Villa</option>
+                <option value="House">House</option>
+                <option value="Room">Room</option>
+            </select> </td>
+        </tr>
+        <tr>
+            <td><label>Loại Phòng Thuê :</label> </td>
+            <td><select  id="phongthue">
+                <option value="Vip">Vip</option>
+                <option value="Business">Business</option>
+                <option value="Normal">Normal</option>
+            </select> </td>
         </tr>
         <tr>
             <td></td>
             <td>
-                <input type="submit" value="Registration">
-                <input type="reset" value="Retype">
+                <button type="button" onclick="submit()">Submit</button>
+                <button type="button" onclick="edit()">Edit</button>
             </td>
         </tr>
     </table>
-</form>
+    <p id="result" ></p>
+
+    <script>
+        function submit(){
+           // alert(document.getElementById('name').value + "\n" +
+           //      document.getElementById("cmnd").value + "\n" +
+           //      document.getElementById("date").value + "\n" +
+           //      document.getElementById("email").value + "\n" +
+           //      document.getElementById("address").value + "\n" +
+           //      document.getElementById("giamgia").value + "\n" +
+           //      document.getElementById("soluong").value + "\n" +
+           //      document.getElementById("ngaythue").value + "\n" +
+           //      document.getElementById("customer").value + "\n" +
+           //      document.getElementById("dichvu").value + "\n" +
+           //      document.getElementById("phongthue").value);
+            let a = "<table border='1'>"
+            for(let i = 0 ; i < 1 ;i++){
+                a += "<tr>";
+                for(let j = 0; j < 1 ;j++){
+                    a +="<td>Họ Và Tên :</td>";
+                    a +="<td>Số CMND :</td>";
+                    a +="<td>Date of birth :</td>";
+                    a +="<td>Email :</td>";
+                    a +="<td>Address :</td>";
+                    a +="<td>Giảm giá :</td>";
+                    a +="<td>Số Lượng Đi Kèm :</td>";
+                    a +="<td>Số Ngày Thuê :</td>";
+                    a +="<td>Loại Customer :</td>";
+                    a +="<td>Loại Dịch Vụ :</td>";
+                    a +="<td>Loại Phòng Thuê :</td>";
+                }
+                a += "</tr>"
+            }
+            for(let i = 0 ; i < 1 ; i++){
+                a += "<tr>";
+                for(let j = 0 ; j < 1 ;j++){
+                    a += "<td>"+document.getElementById('name').value+"</td>";
+                    a += "<td>"+document.getElementById('cmnd').value+"</td>";
+                    a += "<td>"+document.getElementById('date').value+"</td>";
+                    a += "<td>"+document.getElementById('email').value+"</td>";
+                    a += "<td>"+document.getElementById('address').value+"</td>";
+                    a += "<td>"+document.getElementById('giamgia').value+"</td>";
+                    a += "<td>"+document.getElementById('soluong').value+"</td>";
+                    a += "<td>"+document.getElementById('ngaythue').value+"</td>";
+                    a += "<td>"+document.getElementById('customer').value+"</td>";
+                    a += "<td>"+document.getElementById('dichvu').value+"</td>";
+                    a += "<td>"+document.getElementById('phongthue').value+"</td>";
+
+                }
+                a += "</tr>"
+            }
+          a += "</table>";
+            document.writeln(a);
+           let dichvu = document.getElementById("dichvu").value;
+            if(dichvu === "Villa") dichvu = 500 ;
+            else if(dichvu === "House") dichvu = 300;
+            else dichvu = 100;
+           let songay = document.getElementById("ngaythue").value;
+           let giamgia = document.getElementById("giamgia").value;
+           let thanhtoan = dichvu*songay*(1 - giamgia/100);
+           alert(thanhtoan+'$');
+        }
+        function edit(){
+
+        }
+    </script>
 </body>
 </html>

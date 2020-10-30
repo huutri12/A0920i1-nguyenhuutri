@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd68f07f-9cf8-4c83-bc88-1406140e938f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaScript/Mang1/baitap/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaScript/Mang1/baitap/LuyentapMang2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YeuCau1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Yeucau2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YeuCau1.html" beforeDir="false" afterPath="$PROJECT_DIR$/YeuCau1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/CauTrucLap1/BaiTap/bang cuu chuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaScript/CauTrucLap1/BaiTap/bang cuu chuong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/Ham/Baitap/LuyenTap2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaScript/Ham/Baitap/LuyenTap2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +33,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaScript/Mang1/baitap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaScript/Ham/Baitap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -44,6 +46,8 @@
       <updated>1603328041022</updated>
       <workItem from="1603328042082" duration="58000" />
       <workItem from="1603414065837" duration="13000" />
+      <workItem from="1603717100752" duration="2257000" />
+      <workItem from="1603974680039" duration="25000" />
     </task>
     <servers />
   </component>
@@ -51,9 +55,9 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1603414076683">
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1603974703771">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1603414076683" />
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1603974703771" />
   </component>
 </project>

@@ -5,199 +5,211 @@
     <title>CTDK2</title>
 </head>
 <body>
-    <script>
-        let mnb = prompt("mời bạn nhập bài muốn chạy");
-        switch (mnb) {
-            case '1':
-                bt1();
-                break;
-            case '2':
-                bt2();
-                break;
-            case '3':
-                bt3();
-                break;
-            case '4':
-                bt4();
-                break;
-            case '5':
-                bt5();
-                break;
-            case'6':
-                bt6();
-                break;
-            case '7':
-                bt7();
-                break;
-            case '8':
-                bt8();
-                break;
-            case '9':
-                bt9();
-                break;
-            case '10':
-                bt10();
-                break;
-            case '11':
-                bt11();
-                break;
-            case '12':
-                bt12();
-                break;
-        }
-        //bt1:
-        function bt1() {
-            let C = parseInt(prompt("Nhập vào °C = ",''));
-             F = C  * 9/5 + 32;
-            alert("°F = " + F);
-        }
-        //bt2:
-        function bt2() {
-            let m = parseInt(prompt("Nhập vào (m) = ",''));
-            ft =m * 3.2808;
-            alert("ft = " + ft);
-        }
-        //bt3:
-        function bt3() {
-            let a = parseInt(prompt("Nhập vào cạnh a",''));
-            dientichhinhvuong = a*a;
-            alert("diện tích hình vuông là = " + dientichhinhvuong);
-        }
-        //bt4:
-        function bt4() {
-            let a = parseInt(5);
-            let b = parseInt(10);
-            let dientich = a*b;
-            alert("dien tich hcn là" + dientich);
+<script>
+    let mnb = prompt("mời bạn nhập bài muốn chạy");
+    switch (mnb) {
+        case '1':
+            bt1();
+            break;
+        case '2':
+            bt2();
+            break;
+        case '3':
+            bt3();
+            break;
+        case '4':
+            bt4();
+            break;
+        case '5':
+            bt5();
+            break;
+        case'6':
+            bt6();
+            break;
+        case '7':
+            bt7();
+            break;
+        case '8':
+            bt8();
+            break;
+        case '9':
+            bt9();
+            break;
+        case '10':
+            bt10();
+            break;
+        case '11':
+            bt11();
+            break;
+        case '12':
+            bt12();
+            break;
+    }
 
-        }
-        // bt5:
-        function bt5() {
-            let a = parseInt(10);
-            let b = parseInt(15);
-            let s =  a * b / 2;
-            alert("dien tich tam giac vuong la : " + s);
-        }
-        //bt6:
-        function bt6() {
-            let a = parseInt(prompt("Nhập vào a",''));
-            let b = parseInt(prompt("Nhập vào b",''));
-            if(a == 0){
-                if(b==0){
-                    alert("Phương Trình Vô Số Nghiệm");
-                }else {
-                    alert("Phương Trình Vô Nghiệm");
-                }
-            }else{
-                let c = -b / a;
-                alert("phương trình có nghiệm c = " + c);
-            }
-        }
-        //bt7 :
-        function bt7() {
-            let a = parseInt(prompt("Nhập vào a :",''));
-            let b = parseInt(prompt("Nhập vào b : ", ''));
-            let c = parseInt(prompt("Nhập vào b : ", ''));
-            if(a==0){
-                if(b==0){
-                    if(c==0){
-                        alert("Phương trình vô số nghiệm");
-                    }else{
-                        alert("Phương trình vô nghiệm");
-                    }
-                }else{
-                    let x = -c / b;
-                    aler("phương trình có nghiệm x = " + x );
-                }
-            }else{
-                let dta = b * b - 4 * a * c;
-                if(dta < 0){
-                    alert("Phương Trình Vô Nghiệm");
-                }else if(dta == 0){
-                    let x = -b / (2 * a);
-                    alert("Phương Trình Có Nghiệp Kép x = " + x);
-                }else{
-                    let x1 = (-b + Math.sqrt(dta))/(2 * a);
-                    let x2 = (-b - Math.sqrt(dta))/(2 * a);
-                    alert("Phương Trình Có Hai Nghiệm Phân Biệt x1 = " + x1 );
-                    alert("Phương Trình Có Hai Nghiệm Phân Biệt x2 = " + x2);
-                }
-            }
-        }
-        //bt8:
-        function bt8() {
-            let a =parseInt(prompt("Nhập Số Tuổi : ",''));
-            if(a > 0 && a <= 120){
-                alert("Đây là tuổi của một người");
-            }else{
-                alert("Không Hợp Lệ !");
-            }
-        }
-        //bt9:
-        function bt9() {
-            let a = parseInt(prompt("Nhập vào a :",''));
-            let b = parseInt(prompt("Nhập vào b :",''));
-            let c = parseInt(prompt("Nhập vào c :",''));
-            if((a + b > c) && (b + c > a) && (a + c > b) && (a > 0 && b > 0 && c > 0)){
-                alert(" là cạnh của một tam giác ");
-            }else{
-                alert(" không phải là cạnh của một tam giác");
-            }
-        }
-        //bt10:
-        function bt10() {
-            let csc = parseInt(prompt("Nhập vào chỉ số cũ", ''));
-            let csm = parseInt(prompt("Nhập vào chỉ số mới"), '');
-            let tieuthu = csm - csc;
+    //bt1:
+    function bt1() {
+        let C = parseInt(prompt("Nhập vào °C = ", ''));
+        F = C * 9 / 5 + 32;
+        alert("°F = " + F);
+    }
 
-            if (tieuthu <= 100) {
-                tien = tieuthu * 1000;
-                alert("Bạn phải nộp = " + tien);
-            } else if (tieuthu <= 150) {
-                tien = 100 * 1000 + (tieuthu - 100) * 1200;
-                alert("Bạn phải nộp = " + tien);
-            } else if (tieuthu <= 200) {
-                tien = 100 * 1000 + 50 * 1200 + (tieuthu - 150) * 2000;
-                alert("Bạn phải nộp = " + tien);
-            } else if (tieuthu >= 201) {
-                tien = 100 * 1000 + 50 * 1200 + 50 * 2000 + (tieuthu - 200) * 2500;
-                alert("Bạn phải nộp = " + tien);
-            }
-        }
-        //bt11:
-        function bt11() {
-            let thuesuat;
-            let luong = parseInt(prompt("Nhập số tiền lương " , ''));
-            let  sothue ;
-            let luongrong=0;
-            if(luong>15) {
-                sothue=luong*30/100;
-                thuesuat=30;
-                luongrong=luong-sothue;
-                alert("số tiền nhận được là" + luongrong);
-            } else if(luong>=7) {
-                sothue=luong*20/100;
-                thuesuat=20;
-                luongrong=luong-sothue;
-                alert("số tiền nhận được là" + luongrong);
+    //bt2:
+    function bt2() {
+        let m = parseInt(prompt("Nhập vào (m) = ", ''));
+        ft = m * 3.2808;
+        alert("ft = " + ft);
+    }
+
+    //bt3:
+    function bt3() {
+        let a = parseInt(prompt("Nhập vào cạnh a", ''));
+        dientichhinhvuong = a * a;
+        alert("diện tích hình vuông là = " + dientichhinhvuong);
+    }
+
+    //bt4:
+    function bt4() {
+        let a = parseInt(5);
+        let b = parseInt(10);
+        let dientich = a * b;
+        alert("dien tich hcn là" + dientich);
+
+    }
+
+    // bt5:
+    function bt5() {
+        let a = parseInt(10);
+        let b = parseInt(15);
+        let s = a * b / 2;
+        alert("dien tich tam giac vuong la : " + s);
+    }
+
+    //bt6:
+    function bt6() {
+        let a = parseInt(prompt("Nhập vào a", ''));
+        let b = parseInt(prompt("Nhập vào b", ''));
+        if (a == 0) {
+            if (b == 0) {
+                alert("Phương Trình Vô Số Nghiệm");
             } else {
-                sothue=luong*10/100;
-                thuesuat=10;
-                luongrong=luong-sothue;
-                alert("số tiền nhận được là" + luongrong);
+                alert("Phương Trình Vô Nghiệm");
+            }
+        } else {
+            let c = -b / a;
+            alert("phương trình có nghiệm c = " + c);
+        }
+    }
+
+    //bt7 :
+    function bt7() {
+        let a = parseInt(prompt("Nhập vào a :", ''));
+        let b = parseInt(prompt("Nhập vào b : ", ''));
+        let c = parseInt(prompt("Nhập vào b : ", ''));
+        if (a == 0) {
+            if (b == 0) {
+                if (c == 0) {
+                    alert("Phương trình vô số nghiệm");
+                } else {
+                    alert("Phương trình vô nghiệm");
+                }
+            } else {
+                let x = -c / b;
+                aler("phương trình có nghiệm x = " + x);
+            }
+        } else {
+            let dta = b * b - 4 * a * c;
+            if (dta < 0) {
+                alert("Phương Trình Vô Nghiệm");
+            } else if (dta == 0) {
+                let x = -b / (2 * a);
+                alert("Phương Trình Có Nghiệp Kép x = " + x);
+            } else {
+                let x1 = (-b + Math.sqrt(dta)) / (2 * a);
+                let x2 = (-b - Math.sqrt(dta)) / (2 * a);
+                alert("Phương Trình Có Hai Nghiệm Phân Biệt x1 = " + x1);
+                alert("Phương Trình Có Hai Nghiệm Phân Biệt x2 = " + x2);
             }
         }
-        //bt12:
-        function bt12() {
-            let x;
-            let tiengui = parseInt(prompt("Nhập số tiền gửi", ''));
-            let laisuat = parseInt(prompt("Nhập lãi suất", ''));
-            let thoihan = parseInt(prompt("Nhập thời hạn", ''));
-            for (x = 4; x >= 0; x--) {
-                tienlai = (tiengui * laisuat * thoihan) / 100;
-                alert("Số tiền lãi nhận được" + tienlai);
-            }
+    }
+
+    //bt8:
+    function bt8() {
+        let a = parseInt(prompt("Nhập Số Tuổi : ", ''));
+        if (a > 0 && a <= 120) {
+            alert("Đây là tuổi của một người");
+        } else {
+            alert("Không Hợp Lệ !");
         }
-    </script>
+    }
+
+    //bt9:
+    function bt9() {
+        let a = parseInt(prompt("Nhập vào a :", ''));
+        let b = parseInt(prompt("Nhập vào b :", ''));
+        let c = parseInt(prompt("Nhập vào c :", ''));
+        if ((a + b > c) && (b + c > a) && (a + c > b) && (a > 0 && b > 0 && c > 0)) {
+            alert(" là cạnh của một tam giác ");
+        } else {
+            alert(" không phải là cạnh của một tam giác");
+        }
+    }
+
+    //bt10:
+    function bt10() {
+        let csc = parseInt(prompt("Nhập vào chỉ số cũ", ''));
+        let csm = parseInt(prompt("Nhập vào chỉ số mới"), '');
+        let tieuthu = csm - csc;
+
+        if (tieuthu <= 100) {
+            tien = tieuthu * 1000;
+            alert("Bạn phải nộp = " + tien);
+        } else if (tieuthu <= 150) {
+            tien = 100 * 1000 + (tieuthu - 100) * 1200;
+            alert("Bạn phải nộp = " + tien);
+        } else if (tieuthu <= 200) {
+            tien = 100 * 1000 + 50 * 1200 + (tieuthu - 150) * 2000;
+            alert("Bạn phải nộp = " + tien);
+        } else if (tieuthu >= 201) {
+            tien = 100 * 1000 + 50 * 1200 + 50 * 2000 + (tieuthu - 200) * 2500;
+            alert("Bạn phải nộp = " + tien);
+        }
+    }
+
+    //bt11:
+    function bt11() {
+        let thuesuat;
+        let luong = parseInt(prompt("Nhập số tiền lương ", ''));
+        let sothue;
+        let luongrong = 0;
+        if (luong > 15) {
+            sothue = luong * 30 / 100;
+            thuesuat = 30;
+            luongrong = luong - sothue;
+            alert("số tiền nhận được là" + luongrong);
+        } else if (luong >= 7) {
+            sothue = luong * 20 / 100;
+            thuesuat = 20;
+            luongrong = luong - sothue;
+            alert("số tiền nhận được là" + luongrong);
+        } else {
+            sothue = luong * 10 / 100;
+            thuesuat = 10;
+            luongrong = luong - sothue;
+            alert("số tiền nhận được là" + luongrong);
+        }
+    }
+
+    //bt12:
+    function bt12() {
+        let x;
+        let tiengui = parseInt(prompt("Nhập số tiền gửi", ''));
+        let laisuat = parseInt(prompt("Nhập lãi suất", ''));
+        let thoihan = parseInt(prompt("Nhập thời hạn", ''));
+        for (x = 4; x >= 0; x--) {
+            tienlai = (tiengui * laisuat * thoihan) / 100;
+            alert("Số tiền lãi nhận được" + tienlai);
+        }
+    }
+</script>
 </body>
 </html>

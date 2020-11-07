@@ -6,118 +6,125 @@
 </head>
 <body>
 
-    <script>
-         let temp = prompt("mời bạn nhập bài muốn chạy");
-         switch (temp) {
-            case '1': baitap1();
+<script>
+    let temp = prompt("mời bạn nhập bài muốn chạy");
+    switch (temp) {
+        case '1':
+            baitap1();
             break;
-            case '2': baitap2();
+        case '2':
+            baitap2();
             break;
-            case '3':baitap3();
+        case '3':
+            baitap3();
             break;
-            case '4':baitap4();
+        case '4':
+            baitap4();
             break;
-            case '5':baitap5();
+        case '5':
+            baitap5();
             break;
-            case'6':baitap6();
+        case'6':
+            baitap6();
             break;
-            case '7':baitap7();
+        case '7':
+            baitap7();
             break;
-         }
-        // bài tập 1:
-        function baitap1(){
-            let a = parseInt(prompt("Nhap vao a : ",''));
-            let b = parseInt(prompt("Nhap vao b :" ,''));
-            if(a % b == 0){
-                alert("a chia hết cho b");
-            }else{
-                alert("a không chia hết cho b");
-            }
-        }
+    }
 
-        // bài tập 2 :
-        function baitap2(){
-            let age  = parseInt(prompt("Nhập số tuổi : " , ''));
-            if(age >= 16){
-                alert("Học sinh đủ tuổi vào lớp  10");
-            }else{
-                alert("Không đủ tuổi vào lớp 10");
-            }
+    // bài tập 1:
+    function baitap1() {
+        let a = parseInt(prompt("Nhap vao a : ", ''));
+        let b = parseInt(prompt("Nhap vao b :", ''));
+        if (a % b == 0) {
+            alert("a chia hết cho b");
+        } else {
+            alert("a không chia hết cho b");
         }
+    }
 
-   // bài tập 3:
-        function baitap3(){
-            let number = parseInt(prompt("Nhập số : ",''));
-            if(number > 0){
-                alert("đây là số lớn hơn  0");
-            }else{
-                alert("đây là số nhỏ hơn 0");
-            }
+    // bài tập 2 :
+    function baitap2() {
+        let age = parseInt(prompt("Nhập số tuổi : ", ''));
+        if (age >= 16) {
+            alert("Học sinh đủ tuổi vào lớp  10");
+        } else {
+            alert("Không đủ tuổi vào lớp 10");
         }
+    }
+
+    // bài tập 3:
+    function baitap3() {
+        let number = parseInt(prompt("Nhập số : ", ''));
+        if (number > 0) {
+            alert("đây là số lớn hơn  0");
+        } else {
+            alert("đây là số nhỏ hơn 0");
+        }
+    }
 
     // bài tập 4:
-        function baitap4(){
-            let x = parseInt(prompt("Nhập vào số thứ 1 :",''));
-            let y = parseInt(prompt("Nhập vào số thứ 2 :",''));
-            let z = parseInt(prompt("Nhập vào số thứ 3 :",''));
-            if(x > y && x > z){
-                alert("Số thứ 1 là lớn nhất !");
-            }else if(y > x && y > z){
-                alert("Số thứ 2 là lớn nhất !");
-            }else {
-                alert("Số thứ 3 là lớn nhất");
-            }
+    function baitap4() {
+        let x = parseInt(prompt("Nhập vào số thứ 1 :", ''));
+        let y = parseInt(prompt("Nhập vào số thứ 2 :", ''));
+        let z = parseInt(prompt("Nhập vào số thứ 3 :", ''));
+        if (x > y && x > z) {
+            alert("Số thứ 1 là lớn nhất !");
+        } else if (y > x && y > z) {
+            alert("Số thứ 2 là lớn nhất !");
+        } else {
+            alert("Số thứ 3 là lớn nhất");
         }
-     // bài tập 5:
-        function baitap5(){
-            let baikiemtra = parseInt(prompt("Nhập điểm bài kiểm tra :",''));
-            let diemgiuaky = parseInt((prompt("Nhập điểm giữa kỳ :",'')));
-            let diemcuoiky = parseInt(prompt("Nhập điểm cuối kỳ :",''));
-            let trungbinh = parseInt((baikiemtra + diemcuoiky + diemgiuaky)/3);
-            if(trungbinh >= 9.0) alert("Điểm Đạt Loại A" + trungbinh);
-            else if(trungbinh >= 7.0 && trungbinh < 9.0) alert("Điểm Đạt Loại B" + trungbinh);
-            else if(trungbinh>=5.0 && trungbinh < 7.0) alert("Điểm Đạt Loại C" + trungbinh);
-            else if(trungbinh < 5.0) alert("Điểm Đạt Loại F" + trungbinh);
-            else alert("Không Hợp Lệ !");
-        }
+    }
 
-     // bài tập 6:
-        function baitap6() {
-            let doanhso = parseInt(prompt("Nhập vào doanh số : "),'');
-            let hoahong;
-            if(doanhso<=100) {
-                hoahong =doanhso *5 / 100;
-               alert("hoa hồng nhận được khi doanh số = 100" + hoahong);
-            }
-            else if(doanhso<=300) {
-                hoahong=doanhso*10/100;
-                alert("hoa hồng nhận được khi doanh số = 300" + hoahong);
-            }
-            else if(doanhso>300) {
-                hoahong=doanhso*20/100;
-                alert("hoa hồng nhận được khi doanh số lớn hơn 300" + hoahong);
-            }
+    // bài tập 5:
+    function baitap5() {
+        let baikiemtra = parseInt(prompt("Nhập điểm bài kiểm tra :", ''));
+        let diemgiuaky = parseInt((prompt("Nhập điểm giữa kỳ :", '')));
+        let diemcuoiky = parseInt(prompt("Nhập điểm cuối kỳ :", ''));
+        let trungbinh = parseInt((baikiemtra + diemcuoiky + diemgiuaky) / 3);
+        if (trungbinh >= 9.0) alert("Điểm Đạt Loại A" + trungbinh);
+        else if (trungbinh >= 7.0 && trungbinh < 9.0) alert("Điểm Đạt Loại B" + trungbinh);
+        else if (trungbinh >= 5.0 && trungbinh < 7.0) alert("Điểm Đạt Loại C" + trungbinh);
+        else if (trungbinh < 5.0) alert("Điểm Đạt Loại F" + trungbinh);
+        else alert("Không Hợp Lệ !");
+    }
+
+    // bài tập 6:
+    function baitap6() {
+        let doanhso = parseInt(prompt("Nhập vào doanh số : "), '');
+        let hoahong;
+        if (doanhso <= 100) {
+            hoahong = doanhso * 5 / 100;
+            alert("hoa hồng nhận được khi doanh số = 100" + hoahong);
+        } else if (doanhso <= 300) {
+            hoahong = doanhso * 10 / 100;
+            alert("hoa hồng nhận được khi doanh số = 300" + hoahong);
+        } else if (doanhso > 300) {
+            hoahong = doanhso * 20 / 100;
+            alert("hoa hồng nhận được khi doanh số lớn hơn 300" + hoahong);
         }
-        // bài tập 7:
-        function baitap7() {
-            let sophut = parseInt(prompt("Nhập số phút",''));
-            let phi = 0;
-            let tong;
-            let phicodinh=25;
-            if(sophut>=200){
-                phi=(sophut-200)*200+150*400+50*600;
-                alert("Phí sử dụng khi lớp hơn 200 phút là :" + phi);
-            }else if(sophut>=50){
-                phi=(sophut-50)*400+50*600;
-                alert("Phí sử dụng khi lớn hơn 50 phút là :" + phi);
-            }
-            else{
-                phi= sophut * 600;
-            }
-                alert("phi sử dụng khi lớn 600"+phi);
-                tong=0.01*phi+phicodinh;
-                alert("phí tổng "+ tong);
+    }
+
+    // bài tập 7:
+    function baitap7() {
+        let sophut = parseInt(prompt("Nhập số phút", ''));
+        let phi = 0;
+        let tong;
+        let phicodinh = 25;
+        if (sophut >= 200) {
+            phi = (sophut - 200) * 200 + 150 * 400 + 50 * 600;
+            alert("Phí sử dụng khi lớp hơn 200 phút là :" + phi);
+        } else if (sophut >= 50) {
+            phi = (sophut - 50) * 400 + 50 * 600;
+            alert("Phí sử dụng khi lớn hơn 50 phút là :" + phi);
+        } else {
+            phi = sophut * 600;
         }
-    </script>
+        alert("phi sử dụng khi lớn 600" + phi);
+        tong = 0.01 * phi + phicodinh;
+        alert("phí tổng " + tong);
+    }
+</script>
 </body>
 </html>

@@ -5,16 +5,18 @@
     <title>Document</title>
 </head>
 <body>
-    <input type="text" id="month" name="month">
-    <button id="" onclick="getDay();">Tính số ngày</button></br>
-    <b id="day"></b>
+<input type="text" id="month" name="month">
+<button id="" onclick="getDay();">Tính số ngày</button>
+</br>
+<b id="day"></b>
 <script>
     let inputMonth = document.getElementById('month');
     let day = document.getElementById('day');
-    function getDay(){
+
+    function getDay() {
         let month = inputMonth.value;
         console.log(month);
-        switch(month){
+        switch (month) {
             case '1':
             case '3':
             case '5':

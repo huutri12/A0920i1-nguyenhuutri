@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0588acaf-82e9-4e08-b44c-88632c0957af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/baitapcaro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hcn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobileclass.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xaydungTem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ontap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CaseStudy/YeuCau1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CaseStudy/YeuCau1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CaseStudy/Yeucau2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CaseStudy/Yeucau2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CauTrucLap1/BaiTap/BTluyentapvonglap2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../CauTrucLap1/BaiTap/BTluyentapvonglap2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +33,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../CaseStudy/YeuCau1.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../CaseStudy" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -48,6 +48,13 @@
       <workItem from="1604828708157" duration="1617000" />
       <workItem from="1604925574091" duration="879000" />
       <workItem from="1604988493832" duration="144000" />
+      <workItem from="1605091652765" duration="330000" />
+      <workItem from="1605093125516" duration="389000" />
+      <workItem from="1605093557368" duration="7000" />
+      <workItem from="1605273818222" duration="1737000" />
+      <workItem from="1605511683407" duration="47000" />
+      <workItem from="1605524143735" duration="7970000" />
+      <workItem from="1605670440063" duration="332000" />
     </task>
     <servers />
   </component>
@@ -55,9 +62,9 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1604988593737">
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1605670770747">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1604988593737" />
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1605670770747" />
   </component>
 </project>

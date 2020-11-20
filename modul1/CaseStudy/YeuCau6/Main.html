@@ -6,94 +6,100 @@
     <title>Title</title>
 </head>
 <body>
-    <script>
-        let regexEmail = /\S+@\S+\.\S+/;
-        let regexBirthday = /^\d{2}[./-]\d{4}$/;
-        let regexCmnd=/^[\d]{8,8}$/;
-        let LisCus=[];
-        function displayMainMenu(){
+<script>
+    let regexEmail = /\S+@\S+\.\S+/;
+    let regexBirthday = /^\d{2}[./-]\d{2}[./-]\d{4}$/;
+    let regexCmnd = /^[\d]{8,8}$/;
+    let LisCus = [];
 
-            let choose = parseInt(prompt("1.Add new Cus."+"\n2.Display Cus"+"\n3.Edit Cus"+"\n4.Display total paysCus"+"\n5.Delete Cus"+"\n6.Exit"));
-            switch (choose){
-                case 1:{
-                    addNewCustomer();
-                    break;
-                }
-                case 2:{
-                    displayTotalPays();
-                    break;
-                }
-                default :{
-                    alert("Failed");
-                }
+    function displayMainMenu() {
+
+        let choose = parseInt(prompt("1.Add new Cus." + "\n2.Display Cus" + "\n3.Edit Cus" + "\n4.Display total paysCus" + "\n5.Delete Cus" + "\n6.Exit"));
+        switch (choose) {
+            case 1: {
+                addNewCustomer();
+                break;
+            }
+            case 2: {
+                displayTotalPays();
+                break;
+            }
+            default : {
+                alert("Failed");
             }
         }
+    }
 
-        function displayTotalPays(){
-            let temp = " ";
-            for (let i = 0; i < LisCus.length ; i++){
-                temp += i + ". Name: "+LisCus[i].getName + "\n";
-            }
-            let chooseDisplay = parseInt(prompt(temp));
-            alert("Total pays của bạn là " + LisCus[chooseDisplay].totalPays);
+    function displayTotalPays() {
+        let temp = " ";
+        for (let i = 0; i < LisCus.length; i++) {
+            temp += i + ". Name: " + LisCus[i].getName + "\n";
         }
-
-        function addNewCustomer(){
-            let checkValid = false;
-            let cus=new Customer();
-            let name = prompt("Input name : ");
-            do{
-                let cmnd = prompt("Input cmnd: ");
-                if (regexCmnd.test(cmnd)){
-                    checkValid=true;
-                }else {
-                    alert("Không hợp lệ");
-                }
-            }while (!checkValid)
-            checkValid=false;
-            do {
-                let birthday = prompt("Input birthday : ");
-                if (regexBirthday.test(birthday)){
-                    checkValid=true;
-                }else {
-                    alert("Ngày sinh không hợp lệ! ");
-                }
-            }while (!checkValid)
-            checkValid=false;
-            do {
-                let email = prompt("Input email : ");
-                if (regexEmail.test(email)){
-                    checkValid=true;
-                }else {
-                    alert("Không hợp lệ! ")
-                }
-            }while (!checkValid)
-
-            let address = prompt("Input address : ");
-            let typeCustomer = prompt("Input typeCustomer : ");
-            let typeRoom = prompt("Input typeRoom : ");
-            let typeService = prompt("Input typeService : ");
-            let discount = prompt("Input discount : ");
-            let quantityIncluded = prompt("Input quantityInclude : ");
-            let rendDays = prompt("Input renDays");
-
-            cus.setName(name);
-            cus.setBirthday(birthday);
-            cus.setAddress(address);
-            cus.setEmail(email);
-            cus.setCMND(cmnd);
-            cus.setDiscount(discount);
-            cus.setTypeService(typeService);
-            cus.setTypeCustomer(typeCustomer);
-            cus.setQuantityIncluded(quantityIncluded);
-            cus.setTypeRoom(typeRoom);
-            cus.setRentDays(rendDays);
-
-            LisCus.push(cus);
-            alert("Bạn đã thêm thành công!");
-            displayMainMenu();
-        }
+        let chooseDisplay = parseInt(prompt(temp));
+        alert("Total pays của bạn là " + LisCus[chooseDisplay].totalPays);
         displayMainMenu();
-    </script>
+    }
+
+    function addNewCustomer() {
+        let checkValid = false;
+        let cus = new Customer();
+        let name = prompt("Input name : ");
+        do {
+            let cmnd = prompt("Input cmnd: ");
+            if (regexCmnd.test(cmnd)) {
+                checkValid = true;
+            } else {
+                alert("Không hợp lệ");
+            }
+        } while (!checkValid)
+        checkValid = false;
+        do {
+            let birthday = prompt("Input birthday : ");
+            if (regexBirthday.test(birthday)) {
+                checkValid = true;
+            } else {
+                alert("Ngày sinh không hợp lệ! ");
+            }
+        } while (!checkValid)
+        checkValid = false;
+        do {
+            let email = prompt("Input email : ");
+            if (regexEmail.test(email)) {
+                checkValid = true;
+            } else {
+                alert("Không hợp lệ! ")
+            }
+        } while (!checkValid)
+
+        let address = prompt("Input address : ");
+        let typeCustomer = prompt("Input typeCustomer : ");
+        let typeRoom = prompt("Input typeRoom : ");
+        let typeService = prompt("Input typeService : ");
+        let discount = prompt("Input discount : ");
+        let quantityIncluded = prompt("Input quantityInclude : ");
+        let rendDays = prompt("Input renDays: ");
+        let birthday = prompt("Input birthday: ");
+        let email = prompt("input Email: ");
+        let cmnd = prompt("input Cmnd: ");
+
+        cus.setName(name);
+        cus.setBirthday(birthday);
+        cus.setAddress(address);
+        cus.setEmail(email);
+        cus.setCMND(cmnd);
+        cus.setDiscount(discount);
+        cus.setTypeService(typeService);
+        cus.setTypeCustomer(typeCustomer);
+        cus.setQuantityIncluded(quantityIncluded);
+        cus.setTypeRoom(typeRoom);
+        cus.setRentDays(rendDays);
+
+        LisCus.push(cus);
+        alert("Bạn đã thêm thành công!");
+        displayMainMenu();
+    }
+
+    displayMainMenu();
+</script>
 </body>
 </html>

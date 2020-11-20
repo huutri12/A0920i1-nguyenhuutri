@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd68f07f-9cf8-4c83-bc88-1406140e938f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/YeuCau3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YeuCau4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YeuCau5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YeuCau6/Customer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YeuCau6/Employee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YeuCau6/Main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YeuCau6/yc6(task2).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaScript/LapTrinhHuongDoiTuong(OOP)/baitap/ontap.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YeuCau1.html" beforeDir="false" afterPath="$PROJECT_DIR$/YeuCau1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YeuCau3.html" beforeDir="false" afterPath="$PROJECT_DIR$/YeuCau3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YeuCau4.html" beforeDir="false" afterPath="$PROJECT_DIR$/YeuCau4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YeuCau5.html" beforeDir="false" afterPath="$PROJECT_DIR$/YeuCau5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YeuCau6/Customer.js" beforeDir="false" afterPath="$PROJECT_DIR$/YeuCau6/Customer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YeuCau6/Employee.js" beforeDir="false" afterPath="$PROJECT_DIR$/YeuCau6/Employee.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YeuCau6/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/YeuCau6/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YeuCau6/yc6(task2).html" beforeDir="false" afterPath="$PROJECT_DIR$/YeuCau6/yc6(task2).html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Yeucau2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Yeucau2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaScript/CauTrucLap1/BaiTap/BTluyentapvonglap2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaScript/CauTrucLap1/BaiTap/BTluyentapvonglap2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaScript/LapTrinhHuongDoiTuong(OOP)/baitap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaScript/LapTrinhHuongDoiTuong(OOP)/baitap/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +39,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last.edited.regexp" value="12345665&#10;&#10;" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/YeuCau5.html" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -64,7 +62,7 @@
       <workItem from="1603974680039" duration="25000" />
       <workItem from="1605670773361" duration="9667000" />
       <workItem from="1605696516169" duration="11285000" />
-      <workItem from="1605871912624" duration="3838000" />
+      <workItem from="1605871912624" duration="7193000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,4 @@
-let Customer=function () {
+let Customer = function () {
     this.setName = function (name) {
         this.name = name;
     };
@@ -65,16 +65,16 @@ let Customer=function () {
     this.getTypeService = function () {
         return this.typeService;
     };
-    this.totalPays = function (){
-        let money=0;
-        if(this.getTypeService==="Villa"){
-            money=500;
-        }else if (this.getTypeService==="House"){
-            money=300;
-        }else if(this.getTypeService==="Room"){
-            money=200;
+    this.totalPays = function () {
+        let money = 0;
+        if (this.getTypeService === "Villa") {
+            money = 500;
+        } else if (this.getTypeService === "House") {
+            money = 300;
+        } else if (this.getTypeService === "Room") {
+            money = 200;
         }
-        return this.getRentDays()*money*(1-this.getDiscount/100);
+        return this.getRentDays() * money * (1 - this.getDiscount / 100);
     }
 }
 

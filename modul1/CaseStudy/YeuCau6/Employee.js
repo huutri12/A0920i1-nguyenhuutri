@@ -1,63 +1,63 @@
-let Employee = function (){
-    this.getName=function (){
+let Employee = function () {
+    this.getName = function () {
         return this.name;
     }
-    this.getBirthday=function (){
+    this.getBirthday = function () {
         return this.birthday;
     }
-    this.getPhone=function (){
+    this.getPhone = function () {
         return this.phone;
     }
-    this.getEmail=function (){
+    this.getEmail = function () {
         return this.email;
     }
-    this.getCmnd=function (){
+    this.getCmnd = function () {
         return this.cmnd;
     }
-    this.getLever=function (){
+    this.getLever = function () {
         return this.level;
     }
-    this.getLocation=function (){
+    this.getLocation = function () {
         return this.location;
     }
-    this.getSalary=function (){
-        if (this.getLocation()==="Manager"){
-        this.salary=500;
-        }else if (this.getLocation()==="Sale"){
-            this.salary=300;
-        }else if (this.getLocation()==="Makerting"){
-            this.salary=200;
+    this.getSalary = function () {
+        if (this.getLocation() === "Manager") {
+            this.salary = 500;
+        } else if (this.getLocation() === "Sale") {
+            this.salary = 300;
+        } else if (this.getLocation() === "Makerting") {
+            this.salary = 200;
         }
         return this.salary;
     }
-    this.setName=function (name){
-        this.name=name;
+    this.setName = function (name) {
+        this.name = name;
     }
-    this.setBirthday=function (birthday){
-        this.birthday=birthday;
+    this.setBirthday = function (birthday) {
+        this.birthday = birthday;
     }
-    this.setPhone=function (phone){
-        this.phone=phone;
+    this.setPhone = function (phone) {
+        this.phone = phone;
     }
-    this.setEmail=function (email){
-        this.email=email;
+    this.setEmail = function (email) {
+        this.email = email;
     }
-    this.setCmnd=function (cmnd){
-        this.cmnd=cmnd;
+    this.setCmnd = function (cmnd) {
+        this.cmnd = cmnd;
     }
-    this.setLever=function (lever){
-        this.lever=lever;
+    this.setLever = function (lever) {
+        this.lever = lever;
     }
-    this.setLocation=function (location){
-        this.location=location;
+    this.setLocation = function (location) {
+        this.location = location;
     }
-    this.setSalary=function (salary){
-        if(this.getLocation()==="Manager"){
-            this.salary=500;
-        }else if (this.getLocation()==="Sale"){
-            this.salary=300;
-        }else if (this.getLocation()==="Makerting"){
-            this.salary=200;
+    this.setSalary = function (salary) {
+        if (this.getLocation() === "Manager") {
+            this.salary = 500;
+        } else if (this.getLocation() === "Sale") {
+            this.salary = 300;
+        } else if (this.getLocation() === "Makerting") {
+            this.salary = 200;
         }
         return this.salary;
     }

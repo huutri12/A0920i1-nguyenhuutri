@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        class sotietkiem {
+            constructor(maso,loaitietkiem,hotenkhachhang,cmnd,ngaymoso,sotiengui) {
+                this.maso =maso;
+                this.loaitietkiem=loaitietkiem;
+                this.hotenkhachhang=hotenkhachhang;
+                this.cmnd=cmnd;
+                this.ngaymoso=ngaymoso;
+                this.sotiengui=sotiengui;
+            }
+            getmaso() {
+                return this.maso;
+            }
+            setmaso(value) {
+                this.maso = value;
+            }
+            getloaitietkiem(){
+                return this.loaitietkiem;
+            }
+            setloaitietkiem(value){
+                this.loaitietkiem=value;
+            }
+            gethotenkhachhang(){
+                return this.hotenkhachhang;
+            }
+            sethotenkhachhang(value){
+                this.hotenkhachhang=value;
+            }
+            getcmnd(){
+                return this.cmnd;
+            }
+            setcmnd(value){
+                this.cmnd=value;
+            }
+            getngaymoso(){
+                return this.ngaymoso;
+            }
+            setngaymoso(value){
+                this.ngaymoso=value;
+            }
+            getsotiengui(){
+                return this.sotiengui;
+            }
+            setsotiengui(value){
+                this.sotiengui=value;
+            }
+        }
+        let listsotietkiem = [];
+        listsotietkiem.push(new sotietkiem(1,"Loại Tốt", "AnhKhoa",12332112,12/12/1999,1000000));
+        listsotietkiem.push(new sotietkiem(1,"Loại Tốt", "AnhKhoa",12332112,12/12/1999,1000000));
+        listsotietkiem.push(new sotietkiem(1,"Loại Tốt", "AnhKhoa",12332112,12/12/1999,1000000));
+        listsotietkiem.push(new sotietkiem(1,"Loại Tốt", "AnhKhoa",12332112,12/12/1999,1000000));
+        function displaysotietkiem() {
+            document.body.innerHTML="";
+            let temp ="<table border='1'>";
+            temp+="<tr>";
+            temp+="<th width='100px'>Mã Sổ</th>";
+            temp+="<th width='100px'>Loại Tiết Kiệm</th>";
+            temp+="<th width='100px'>Họ Tên Khách Hàng</th>";
+            temp+="<th width='100px'>CMND</th>";
+            temp+="<th width='100px'>Ngày Mở Sổ</th>";
+            temp+="<th width='100px'>Số Tiền Gửi</th>";
+            temp+="</tr>";
+            for(let i= 0;i<listsotietkiem.length;i++){
+                temp+="<tr>";
+                temp+="<td>"+listsotietkiem[i].getmaso()+"</td>";
+                temp+="<td>"+listsotietkiem[i].getloaitietkiem()+"</td>";
+                temp+="<td>"+listsotietkiem[i].gethotenkhachhang()+"</td>";
+                temp+="<td>"+listsotietkiem[i].getcmnd()+"</td>";
+                temp+="<td>"+listsotietkiem[i].getngaymoso()+"</td>";
+                temp+="<td>"+listsotietkiem[i].getsotiengui()+"</td>";
+                temp+="<td><button onclick='deletesotietkiem("+i+")'>Delete</button></td>";
+                temp+="</tr>";
+            }
+            temp+="</table>";
+            temp+="<button onclick='addsotietkiem()'>Add STK</button>"
+            document.writeln(temp);
+        }
+        function addsotietkiem() {
+            document.body.innerHTML="";
+            let temp = "MaSo: <input type='text' id='maso'><br>";
+            temp+="LoaiTietKiem: <input type='text' id='loaitietkiem'><br>";
+            temp+="CMND: <input type='number' id='cmnd'><br>";
+            temp+="NgayMoSo: <input type='date' id='date'><br>";
+            temp+="Sotiengui: <input type='number' id='sotiengui'><br>";
+
+            temp+="<button onclick='successAddsotietkiem()'>Add Student</button>"
+            document.writeln(temp);}
+        function successAddsotietkiem() {
+            let maso = document.getElementById("maso").value;
+            let LoaiTietKiem = document.getElementById("loaitietkiem").value;
+            let CMND = document.getElementById("cmnd").value;
+            let NgayMoSo = document.getElementById("date").value;
+            let Sotiengui = document.getElementById("sotiengui").value;
+            listsotietkiem.push(new sotietkiem(maso,LoaiTietKiem,CMND,NgayMoSo,Sotiengui));
+            displaysotietkiem();
+        }
+        function deletesotietkiem(i) {
+            if(confirm("bạn có muốn xóa "+listsotietkiem[i].gethotenkhachhang()+" này hay không?")) {
+                listsotietkiem.splice(i,1);
+                displaysotietkiem();
+            }
+        }
+        displaysotietkiem();
+    </script>
+</body>
+</html>

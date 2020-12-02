@@ -17,7 +17,6 @@
     let discount;
     let quantityIncluded;
     let rendDays;
-    let totalPay;
     let check = false;
 
     let tempName = "";
@@ -52,7 +51,7 @@
             let day = birthday.substring(0, 2);
             let month = birthday.substring(3, 5);
             let year = birthday.substring(6, 10);
-            if (!isNaN(day) && !isNaN(month) && !isNaN(year)) {
+            if (!isNaN( day ) && !isNaN( month ) && !isNaN( year )) {
                 day = Number.parseFloat(day);
                 month = Number.parseFloat(month);
                 year = Number.parseFloat(year);
@@ -102,7 +101,7 @@
                 check = true;
             }
         }
-        if (!check) {
+        if (check) {
             alert("Số Lượng không hợp lệ !");
         }
     } while (!check)

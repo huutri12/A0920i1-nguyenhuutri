@@ -6,28 +6,43 @@ import java.util.Scanner;
 
 public class DeleteElementArray {
     public static void main(String[] args) {
+        int n, i, c;
         Scanner scanner = new Scanner(System.in);
-        int[] arr = {6, 8, 10, 34, 12, 2};
 
-        System.out.print("Nhập Phần Tử Muốn Xóa: ");
-        int element = scanner.nextInt();
+        do {
+            System.out.println("Nhập vào số phần tử mảng: ");
+            n = scanner.nextInt();
+        }while (n <= 0);
 
-        for(int i = arr.length-1; i > element; i--){
-//            if(arr[i] == element){
-//                // shift elements to the left
-//                for(int j = i; j < arr.length - 1; j++){
-//                    arr[j] = arr[j+1];
-//                }
-//                break;
-//            }
+        int A[] = new int[n];
+        System.out.println("Nhập các phần tử cho mảng: ");
 
+        for ( i = 0 ; i < n ; i++){
+            System.out.println("Nhập phần tử thử " + i + ": ");
+            A[i] = scanner.nextInt();
         }
 
-        System.out.println("Mảng sau khi xóa 1 ptu: " );
-        for(int i = 0; i < arr.length; i++){
-            System.out.print(" " + arr[i]);
+        System.out.println("Nhập số nguyên k: ");
+        int k = scanner.nextInt();
+        // xóa phần tử k ra khỏi mảng
+        // vòng lặp for sẽ khởi tạo c = i = 0
+        // và duyệt i từ 0 đến n
+        // nếu phần tử tại vị trí i khác với số nguyên k
+        // thì gán phần tử tại i cho phần tử tại k
+        // sau đó tăng c lên 1
+
+        for (c = i = 0 ; i < n ; i++){
+            if (A[i] != k){
+                A[c] = A[i];
+                c++;
+            }
         }
+        n = c;
 
+        System.out.println("Mảng mới sau khi xóa đi " + k + "Là: " );
 
+        for (i = 0 ; i < n ; i++){
+            System.out.println(A[i]);
+        }
     }
 }

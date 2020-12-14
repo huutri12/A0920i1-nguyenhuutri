@@ -2,8 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90b656ee-4a82-472b-8c90-99548ac71feb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BaiTap/gameXepHinh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/asset/cat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/asset/cat2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/asset/cat3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/asset/cat4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/asset/cat5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/asset/monkey/monkey.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/asset/monkey/monkey2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/asset/monkey/monkey3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/asset/monkey/monkey4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/asset/monkey/monkey5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/asset/panda/monkey/monkey.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/asset/panda/monkey/monkey2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/asset/panda/monkey/monkey3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/asset/panda/monkey/monkey4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/asset/panda/monkey/monkey5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/asset/panda/panda.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/asset/panda/panda2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/asset/panda/panda3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/asset/panda/panda4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/asset/panda/panda5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module02/src/B5_Access_Modifier_JAVA/BaiTap/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module02/src/B5_Access_Modifier_JAVA/BaiTap/TestCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTap/gameXepHinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTap/gameXepHinh.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +44,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Windows/Downloaded Program Files" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\A0920I1-NguyenHuuTri\modul1\JavaScript\BaiTap\asset" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\A0920I1-NguyenHuuTri\modul1\JavaScript\BaiTap\asset\panda\monkey" />
+      <recent name="F:\A0920I1-NguyenHuuTri\modul1\JavaScript\BaiTap\asset\panda" />
+      <recent name="F:\A0920I1-NguyenHuuTri\modul1\JavaScript\BaiTap\asset" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -34,10 +66,27 @@
       <option name="presentableId" value="Default" />
       <updated>1607935270159</updated>
       <workItem from="1607935271206" duration="18000" />
+      <workItem from="1607945235741" duration="74000" />
+      <workItem from="1607945610521" duration="479000" />
+      <workItem from="1607946100792" duration="89000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="782" y="339" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607945697753">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="782" y="339" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1607945697753" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1607946188192">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1607946188192" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1607945626695">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1607945626695" />
   </component>
 </project>

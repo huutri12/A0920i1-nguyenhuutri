@@ -14,8 +14,8 @@ public class Ungdungchuyenchuthanhso {
     public static void main(String[] args) {
         System.out.print("Input a number:");
         int num = new Scanner(System.in).nextInt();
+        numberToWord(((num / 1000) % 10), " THOUSAND AND");
         numberToWord(((num / 100) % 10), " HUNDRED AND");
         numberToWord((num % 100), " ");
     }
-
 }

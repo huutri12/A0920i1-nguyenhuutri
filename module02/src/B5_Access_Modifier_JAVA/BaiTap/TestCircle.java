@@ -1,5 +1,7 @@
 package B5_Access_Modifier_JAVA.BaiTap;
 
+import B6_Access_Modifier_JAVA.KeThua.ThucHanh.Shape;
+
 import java.util.Scanner;
 
 public class TestCircle {

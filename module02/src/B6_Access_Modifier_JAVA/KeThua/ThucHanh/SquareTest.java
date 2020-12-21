@@ -1,0 +1,14 @@
+package B6_Access_Modifier_JAVA.KeThua.ThucHanh;
+
+public class SquareTest {
+    public static void main(String[] args) {
+        Square square = new Square();
+        System.out.println(square);
+
+        square = new Square(2.3);
+        System.out.println(square);
+
+        square = new Square(5.8, "yeloww", true);
+        System.out.println(square);
+    }
+}

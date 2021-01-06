@@ -13,11 +13,11 @@
     </style>
 </head>
 <body>
-<img src="./asset/panda.jpg" onclick="check()" alt="" id="img1"> <br>
-<img src="./asset/panda2.jpg" onclick="check2()" alt="" id="img2"> <br>
-<img src="./img1/panda3.jpg" onclick="check3()" alt="" id="img3"> <br>
-<img src="./img1/panda4.jpg" onclick="check4()" alt="" id="img4"> <br>
-<img src="./img1/panda5.jpg" onclick="check5()" alt="" id="img5"> <br>
+<img src="./panddaaa/panda.jpg" onclick="check()" alt="" id="img1"> <br>
+<img src="./panddaaa/panda2.jpg" onclick="check2()" alt="" id="img2"> <br>
+<img src="./panddaaa/panda3.jpg" onclick="check3()" alt="" id="img3"> <br>
+<img src="./panddaaa/panda4.jpg" onclick="check4()" alt="" id="img4"> <br>
+<img src="./panddaaa/panda5.jpg" onclick="check5()" alt="" id="img5"> <br>
 <script>
     const pic1 = document.getElementById('img1')
     const pic2 = document.getElementById('img2')
@@ -26,7 +26,7 @@
     const pic5 = document.getElementById('img5')
     function check(){
         let s1 = pic1.getAttribute('src')
-        if(s1 == './img1/panda.jpg'){
+        if(s1 === './panddaaa/panda.jpg'){
             pic1.src = './img2/cat.jpg'
         }else if(s1 == './img2/cat.jpg'){
             pic1.src = './img3/monkey.jpg'

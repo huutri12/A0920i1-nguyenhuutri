@@ -2,44 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90b656ee-4a82-472b-8c90-99548ac71feb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CauTrucLap1/.idea/CauTrucLap1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CauTrucLap1/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CauTrucLap1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CauTrucLap1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CauTrucLap1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../module02/out/production/module02/B10__DSA_DanhSach_JAVA/ThucHanh/Bai1/MyList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../module02/out/production/module02/B10__DSA_DanhSach_JAVA/ThucHanh/Bai1/MyListTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../module02/out/production/module02/B10__DSA_DanhSach_JAVA/ThucHanh/Bai2/MyLinkedList$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../module02/out/production/module02/B10__DSA_DanhSach_JAVA/ThucHanh/Bai2/MyLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../module02/out/production/module02/B10__DSA_DanhSach_JAVA/ThucHanh/Bai2/TestMyLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../module02/out/production/module02/B11__DSA_Stack_Queue_JAVA/ThucHanh/GenericStackClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../module02/out/production/module02/B11__DSA_Stack_Queue_JAVA/ThucHanh/MyGenericStack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../module02/out/production/module02/B11__DSA_Stack_Queue_JAVA/ThucHanh/b2/LinkedListQueueClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../module02/out/production/module02/B11__DSA_Stack_Queue_JAVA/ThucHanh/b2/MyLinkedListQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../module02/out/production/module02/B11__DSA_Stack_Queue_JAVA/ThucHanh/b2/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../module02/out/production/module02/B_CleanCode_JAVA/Refactoring/Baitap/TennisGame.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../module02/out/production/module02/B_CleanCode_JAVA/Refactoring/ThucHanh/Calculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../module02/out/production/module02/B_CleanCode_JAVA/Refactoring/ThucHanh/FizzBuzz.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../module02/src/B10__DSA_DanhSach_JAVA/ThucHanh/Bai1/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../module02/src/B10__DSA_DanhSach_JAVA/ThucHanh/Bai1/MyListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../module02/src/B10__DSA_DanhSach_JAVA/ThucHanh/Bai2/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../module02/src/B10__DSA_DanhSach_JAVA/ThucHanh/Bai2/TestMyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../module02/src/B11__DSA_Stack_Queue_JAVA/ThucHanh/GenericStackClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../module02/src/B11__DSA_Stack_Queue_JAVA/ThucHanh/MyGenericStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../module02/src/B11__DSA_Stack_Queue_JAVA/ThucHanh/b2/LinkedListQueueClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../module02/src/B11__DSA_Stack_Queue_JAVA/ThucHanh/b2/MyLinkedListQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../module02/src/B11__DSA_Stack_Queue_JAVA/ThucHanh/b2/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../module02/src/B_CleanCode_JAVA/Refactoring/Baitap/TennisGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../module02/src/B_CleanCode_JAVA/Refactoring/ThucHanh/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../module02/src/B_CleanCode_JAVA/Refactoring/ThucHanh/FizzBuzz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiTap/asset/cat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTap/catt/cat.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiTap/asset/cat2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiTap/asset/cat3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiTap/asset/cat4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiTap/asset/cat5.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/BaiTap/gameXepHinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTap/gameXepHinh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sh.exe.stackdump" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,19 +30,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Snake-master" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\A0920I1-NguyenHuuTri\modul1\JavaScript\BaiTap\asset" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\A0920I1-NguyenHuuTri\modul1\JavaScript\BaiTap\panddaaa" />
       <recent name="F:\A0920I1-NguyenHuuTri\modul1\JavaScript\BaiTap\monkeyy" />
       <recent name="F:\A0920I1-NguyenHuuTri\modul1\JavaScript\BaiTap\catt" />
       <recent name="F:\A0920I1-NguyenHuuTri\modul1\JavaScript\BaiTap\.idea" />
       <recent name="F:\A0920I1-NguyenHuuTri\modul1\JavaScript\BaiTap\asset\panda\monkey" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\A0920I1-NguyenHuuTri\modul1\JavaScript\BaiTap\asset" />
     </key>
   </component>
   <component name="RunManager">
@@ -106,6 +70,9 @@
       <workItem from="1609233883885" duration="23000" />
       <workItem from="1609874187833" duration="1392000" />
       <workItem from="1609875638547" duration="1759000" />
+      <workItem from="1609941557568" duration="1156000" />
+      <workItem from="1610095285239" duration="603000" />
+      <workItem from="1610097821753" duration="1147000" />
     </task>
     <servers />
   </component>
@@ -117,10 +84,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="782" y="339" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1607945697753" />
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1609233904587">
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1610099484283">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1609233904587" />
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1610099484283" />
     <state x="425" y="197" key="run.anything.popup" timestamp="1609876601268">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

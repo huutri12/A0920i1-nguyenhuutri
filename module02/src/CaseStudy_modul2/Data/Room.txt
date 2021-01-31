@@ -1,0 +1,13 @@
+Name: hi
+Area: 20
+Rent: 23.0
+Amount: 3
+Rental_Type: 
+Id: 1
+ServicesFree: 2Name: Asd
+Area: 20
+Rent: 20.0
+Amount: 10
+Rental_Type: 
+Id: 3
+ServicesFree: 6411as,20,30.0,30,,3,asÁd,3,3.0,3,,3,Car

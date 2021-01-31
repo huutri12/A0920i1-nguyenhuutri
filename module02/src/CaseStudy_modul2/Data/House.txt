@@ -1,0 +1,9 @@
+Name: sd
+Area: 2
+Rent: 2.0
+Amount: 3
+Rental_Type: 
+Id: 4
+Standard_Room: 5
+Description: 6
+Floors: 7

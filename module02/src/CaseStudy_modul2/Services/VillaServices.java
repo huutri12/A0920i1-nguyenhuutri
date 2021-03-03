@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class VillaServices {
     static Scanner scanner = new Scanner(System.in);
     static ArrayList<Villa> Villa_List = new ArrayList<>();
-    static final String PATH = "F:\\A0920I1-NguyenHuuTri\\module02\\src\\CaseStudy_modul2\\Data\\Villa.txt";
+    static final String PATH = "F:\\A0920I1-NguyenHuuTri\\module02\\src\\CaseStudy_modul2\\Data\\Villa.csv";
 
     public static void AddNewVilla(){
 

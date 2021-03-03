@@ -2,7 +2,7 @@ package CaseStudy_modul2.Models;
 
 public class Customer {
     private String Name_Customer;
-    private int date;
+    private String date_ofbirth;
     private String sex;
     private int CMND;
     private String Email;
@@ -10,15 +10,18 @@ public class Customer {
     private String Address;
     private Services services;
 
-    public Customer(String name_Customer, int date, String sex, int CMND, String email, String type, String address, Services services) {
+    public Customer(String name_Customer, String date_ofbirth, String sex, int CMND, String email, String type, String address, Services services) {
         Name_Customer = name_Customer;
-        this.date = date;
+        this.date_ofbirth = date_ofbirth;
         this.sex = sex;
         this.CMND = CMND;
         Email = email;
         this.type = type;
         Address = address;
         this.services = services;
+    }
+
+    public Customer(String name, String date, String gender, int phone_number, String email, String type_customer, String address) {
     }
 
     public String getName_Customer() {
@@ -29,12 +32,12 @@ public class Customer {
         Name_Customer = name_Customer;
     }
 
-    public int getDate() {
-        return date;
+    public String getDate_ofbirth() {
+        return date_ofbirth;
     }
 
-    public void setDate(int date) {
-        this.date = date;
+    public void setDate_ofbirth(String date_ofbirth) {
+        this.date_ofbirth = date_ofbirth;
     }
 
     public String getSex() {
@@ -84,10 +87,9 @@ public class Customer {
     public void setServices(Services services) {
         this.services = services;
     }
-
-    public String showInfor(){
+    public String showInfor(int index){
         return "NameCustomer: " + this.getName_Customer()+
-                "Date: " +this.getDate()+"\n"+
+                "Date: " +this.getDate_ofbirth()+"\n"+
                 "Sex: " + this.getSex()+"\n"+
                 "CMND: " + this.getCMND()+"\n"+
                 "Email: " + this.getEmail()+"\n"+

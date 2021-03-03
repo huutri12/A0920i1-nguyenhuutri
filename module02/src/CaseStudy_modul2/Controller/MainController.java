@@ -1,16 +1,17 @@
 package CaseStudy_modul2.Controller;
 
-import CaseStudy_modul2.Models.Room;
-import CaseStudy_modul2.Models.Villa;
+import CaseStudy_modul2.CustomerMain.CustomerMain;
 import CaseStudy_modul2.Services.HouseServices;
 import CaseStudy_modul2.Services.RoomServices;
 import CaseStudy_modul2.Services.VillaServices;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class MainController {
     static boolean outMenu = true;
     static Scanner scanner = new Scanner(System.in);
+
     public static void DisplayMainMenu(){
         int choose;
         do {
@@ -34,10 +35,10 @@ public class MainController {
                     ShowServices();
                     break;
                 case 3:
-                    AddNewCustomer();
+                    CustomerMain.add_New_Customer();
                     break;
                 case 4:
-                    ShowInformationOfCustomer();
+                   CustomerMain.show_Information_Of_Customer();
                     break;
                 case 5:
                     AddNewBooking();
@@ -113,11 +114,7 @@ public class MainController {
 
         }
     }
-    public static void AddNewCustomer(){
 
-
-
-    }
     public static void ShowInformationOfCustomer(){
 
     }

@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class RoomServices {
     static Scanner scanner = new Scanner(System.in);
     static ArrayList<Room> Room_List = new ArrayList<>();
-    static final String PATH = "F:\\A0920I1-NguyenHuuTri\\module02\\src\\CaseStudy_modul2\\Data\\Room.txt";
+    static final String PATH = "F:\\A0920I1-NguyenHuuTri\\module02\\src\\CaseStudy_modul2\\Data\\Room.csv";
     public static void AddNewRoom(){
         String name;
         do {

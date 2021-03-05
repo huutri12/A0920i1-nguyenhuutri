@@ -6,8 +6,8 @@ create table Customer(
 customer_number int,
 fullname varchar(50),
 address varchar(255),
-email varchar(50),
-phone int
+email varchar(50) unique,
+phone varchar(50) unique
 );
 
 create table Accounts(

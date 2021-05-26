@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="00478e84-a599-4701-8da4-c43d4a7968d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/.idea/Thao tác với CSDL và ORM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/.idea/18.CSDL_ORM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Views &amp; Thymeleaf/.idea/Views &amp; Thymeleaf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/.idea/spring-timezone.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.idea/artifacts/CustomerORM_main_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.idea/artifacts/CustomerORM_main_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.idea/modules/CustomerORM.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.idea/modules/CustomerORM.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/build/classes/java/main/com/codegym/cms/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/build/classes/java/main/com/codegym/cms/ApplicationConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/build/classes/java/main/com/codegym/cms/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/build/classes/java/main/com/codegym/cms/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/build/classes/java/main/com/codegym/cms/model/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/build/classes/java/main/com/codegym/cms/repository/impl/CustomerRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/build/classes/java/main/com/codegym/cms/repository/impl/CustomerRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/out/artifacts/CustomerORM_main_war_exploded/WEB-INF/classes/com/codegym/cms/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/out/artifacts/CustomerORM_main_war_exploded/WEB-INF/classes/com/codegym/cms/ApplicationConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/out/artifacts/CustomerORM_main_war_exploded/WEB-INF/classes/com/codegym/cms/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/out/artifacts/CustomerORM_main_war_exploded/WEB-INF/classes/com/codegym/cms/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/out/artifacts/CustomerORM_main_war_exploded/WEB-INF/classes/com/codegym/cms/repository/impl/CustomerRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/out/artifacts/CustomerORM_main_war_exploded/WEB-INF/classes/com/codegym/cms/repository/impl/CustomerRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/src/main/java/com/codegym/cms/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Thao tác với CSDL và ORM/18.CSDL_ORM/18.CSDL_ORM/src/main/java/com/codegym/cms/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Views &amp; Thymeleaf/thuchanh/thymeleafUse/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Views &amp; Thymeleaf/thuchanh/thymeleafUse/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-timezone/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-timezone/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-timezone/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-timezone/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3/.idea/.idea.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3/.idea/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3/.idea/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3/.idea/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3/.idea/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3/.idea/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3/.idea/libraries/taglibs_standard_impl_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3/.idea/module3.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1sqkZ0aWo47yPqC3VeutA6NiWxS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00478e84-a599-4701-8da4-c43d4a7968d7" name="Default Changelist" comment="" />
+      <created>1621607558664</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621607558664</updated>
+      <workItem from="1621607563067" duration="53000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="174" key="FileChooserDialogImpl" timestamp="1621607595948">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="174" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1621607595948" />
+    <state x="465" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1621607567404">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="465" y="258" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1621607567404" />
+    <state x="209" y="135" key="new project wizard" timestamp="1621607615394">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="209" y="135" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1621607615394" />
+  </component>
+</project>

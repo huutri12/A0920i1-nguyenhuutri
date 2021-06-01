@@ -6,7 +6,7 @@ import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
 
 @Component
-public class PhoneNumber implements Validator {
+public class   PhoneNumber implements Validator {
     private String number;
 
     public String getNumber() {

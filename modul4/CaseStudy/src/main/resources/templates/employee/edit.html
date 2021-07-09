@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Employee</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#editEmployeeForm').submit(function (event) {
+                console.log("edit");
+
+                let employee = {
+                    "employeeName": $("#inputName").val(),
+                    "employeeDate":$("#inputBirthday").val(),
+                    "employeeIdCard":$("#inputIdCard").val(),
+                    "employeeSalary" :$("#inputSalary").val(),
+                    "employeePhone": $("#inputPhone").val(),
+                    "employeeEmail":$("#inputEmail").val(),
+                    "employeeAddress":$("#inputAdress").val(),
+                    "position" :$("#inputPosition").val(),
+                    "education_degree": $("#inputEducationDegree").val(),
+                    "division":$("#inputDivision").val(),
+                    "user":$("#inputUsername").val()
+                };
+
+                console.log(employee);
+
+
+                $.ajax({
+                    url: "/furama-employee/update",
+                    data: JSON.stringify(employee),
+                    type: "POST",
+
+                    success: function () {
+                        alert("Update thanh cong")
+                    },
+                    error :function(jqXHR, textStatus, errorThrown) {
+
+                        console.log(JSON.stringify(employee));
+                        // When AJAX call has failed
+                        console.log('AJAX call failed.');
+                        console.log(textStatus + ': ' + errorThrown);
+                    }
+                });
+                event.preventDefault();
+            });
+        });
+    </script>
+</head>
+<body>
+<div id="container" style="font-size: 25px; color: black">
+    <!--    th:action="@{/furama-employee/addNewEmployee}" method="post"-->
+    <form th:object="${employee}" id="editEmployeeForm">
+        <header style="text-align: center;">Edit Employee</header>
+        <fieldset>
+            <div class="form-group">
+                <label for="inputName">Name</label>
+                <input type="text" class="form-control" id="inputName" th:field="*{employeeName}"/>
+                <th:block>
+                    <span th:if="${#fields.hasErrors('employeeName')}" th:errors="*{employeeName}">Name Error</span>
+                </th:block>
+            </div>
+
+            <div class="form-group">
+                <label for="inputBirthday">Birthday</label>
+                <input type="date" class="form-control" id="inputBirthday" th:field="*{employeeDate}">
+                <th:block>
+                    <span th:if="${#fields.hasErrors('employeeDate')}"
+                          th:errors="*{employeeDate}">Name Error</span>
+                </th:block>
+            </div>
+
+            <div class="form-group">
+                <label for="inputIdCard">ID Card</label>
+                <input type="text" class="form-control" id="inputIdCard" th:field="*{employeeIdCard}">
+                <th:block>
+                    <span th:if="${#fields.hasErrors('employeeIdCard')}"
+                          th:errors="*{employeeIdCard}">Name Error</span>
+                </th:block>
+            </div>
+
+            <div class="form-group">
+                <label for="inputSalary">Salary</label>
+                <input type="text" class="form-control" id="inputSalary" th:field="*{employeeSalary}">
+                <th:block>
+                    <span th:if="${#fields.hasErrors('employeeSalary')}"
+                          th:errors="*{employeeSalary  }">Name Error</span>
+                </th:block>
+            </div>
+
+            <div class="form-group">
+                <label for="inputPhone">Phone</label>
+                <input type="text" class="form-control" id="inputPhone" th:field="*{employeePhone}">
+                <th:block>
+                    <span th:if="${#fields.hasErrors('employeePhone')}" th:errors="*{employeePhone}">Name Error</span>
+                </th:block>
+            </div>
+
+
+            <div class="form-group">
+                <label for="inputEmail">Email</label>
+                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
+                       th:field="*{employeeEmail}">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small>
+                <th:block>
+                    <span th:if="${#fields.hasErrors('employeeEmail')}" th:errors="*{employeeEmail}">Name Error</span>
+                </th:block>
+            </div>
+
+            <div class="form-group">
+                <label for="inputAdress">Address</label>
+                <input type="text" class="form-control" id="inputAdress" th:field="*{employeeAddress}">
+                <th:block>
+                    <span th:if="${#fields.hasErrors('employeeAddress')}"
+                          th:errors="*{employeeAddress}">Name Error</span>
+                </th:block>
+            </div>
+
+            <div class="form-group">
+                <label for="inputPosition">Position</label>
+                <select id="inputPosition" th:field="*{position}" class="custom-select" required>
+                    <option th:each="p:${positions}" th:value="${p.position_id}" th:text="${p.position_name}"
+                            value=""></option>
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+                <label for="inputEducationDegree">Education Degree</label>
+                <select id="inputEducationDegree" th:field="*{education_degree}" class="custom-select" required>
+                    <option th:each="e:${educationDegrees}" th:value="${e.education_degree_id}"
+                            th:text="${e.education_degree_name}" value=""></option>
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+                <label for="inputDivision">Division</label>
+                <select id="inputDivision" th:field="*{division}" class="custom-select" required>
+                    <option th:each="d:${divisions}" th:value="${d.division_id}" th:text="${d.division_name}"
+                            value=""></option>
+                </select>
+
+            </div>
+
+            <div class="form-group">
+                <label for="inputUsername">Username</label>
+                <input type="text" class="form-control" id="inputUsername" th:field="*{user.username}" readonly/>
+
+            </div>
+        </fieldset>
+
+
+        <input type="submit" class="btn btn-primary" value="Update"/>
+    </form>
+</div>
+</body>
+</html>

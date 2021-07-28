@@ -33,9 +33,7 @@ public class ContractDaoLimpl implements IConTractDao {
         Connection connection = null;
         PreparedStatement statement = null;
 
-        try{
-            connection = connectionDB
-        }
+
     }
 
     @Override

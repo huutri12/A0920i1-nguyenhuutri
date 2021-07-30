@@ -1,8 +1,11 @@
 <h3> Student Information</h3>
-<p>Student ID: {{student.id}}</p>
-<p>Student Name: {{student.name}}</p>
-<p>Student Age: {{student.age}}</p>
-<p>Student Mark: {{student.mark}}</p>
-<img [src]="student.avatar" alt="image">
-<br>
-<label>Chấm điểm:<input type="number" [(ngModel)]="student.mark"></label>
+<div class="card" style="width:400px" *ngIf="childStudentDetail">
+  <img [src]="childStudentDetail.avatar" alt="image">
+  <div class="card-body">
+    <p>Student ID: {{childStudentDetail.id}}</p>
+    <p>Student Name: {{childStudentDetail.name}}</p>
+    <p>Student Age: {{childStudentDetail.age}}</p>
+    <p>Student Mark: {{childStudentDetail.mark}}</p>
+  </div>
+  <label>Chấm điểm:<input type="number" min="0" max="10" (change)="changeMarkForStudent($event.target.value)"></label>
+</div>

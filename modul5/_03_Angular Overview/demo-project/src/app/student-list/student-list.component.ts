@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {IStudent} from "../model/IStudent";
+import {studentDao} from "../repository/studentDao";
 
 @Component({
   selector: 'app-student-list',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StudentListComponent implements OnInit {
 
+  students: IStudent[] = studentDao;
+  parentStudentDetail: IStudent;
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  getStudent(value){
+    this.parentStudentDetail =value;
+  }
+  catchMarkFromChilrent(value){
+
+  }
 }

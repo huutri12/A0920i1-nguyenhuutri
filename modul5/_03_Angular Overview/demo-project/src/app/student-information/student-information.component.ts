@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {IStudent} from "../model/IStudent";
 
 @Component({ //Các thành phần đánh dấu bằng @ được gọi là decorator, tương đương với annotation trong spring
@@ -7,21 +7,18 @@ import {IStudent} from "../model/IStudent";
 
 })
 export class StudentInformationComponent implements OnInit {
-
-
-  student: IStudent = {
-    id: 1,
-    name: "tri",
-    age: 20,
-    mark: 8,
-    avatar: "https://thumbs.dreamstime.com/z/call-center-icon-vector-male-data-support-customer-service-person-profile-avatar-headphone-line-graph-online-153587667.jpg",
-  }
+  @Input()
+  childStudentDetail:IStudent;
   constructor() { }
-
+  @Output()
+  //khai bao 1 su kien
+  throwCurentMark = new EventEmitter();
   ngOnInit(): void {
   }
-  changeMarkForStudent(mark: number){
-    this.student.mark= mark;
+   changeMarkForStudent(mark: number){
+    //this.student.mark= mark;
+     this.childStudentDetail.mark = mark;
+     this.throwCurentMark.emit(mark);
   }
 
 }

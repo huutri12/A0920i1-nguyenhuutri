@@ -23,4 +23,13 @@
     </td>
   </tbody>
 </table>
-<app-student-information (throwCurentMark)="catchMarkFromChilrent($event)" [childStudentDetail]="parentStudentDetail"></app-student-information>
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <app-student-information (throwCurentMark)="catchMarkFromChilrent($event)" [childStudentDetail]="parentStudentDetail"></app-student-information>
+    </div>
+    <div class="col-6">
+      <app-reactive-form></app-reactive-form>
+    </div>
+  </div>
+</div>

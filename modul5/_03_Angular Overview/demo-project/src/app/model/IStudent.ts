@@ -4,4 +4,5 @@ export interface IStudent {
   age: number;
   mark: number;
   avatar: string;
+  value: IStudent
 }

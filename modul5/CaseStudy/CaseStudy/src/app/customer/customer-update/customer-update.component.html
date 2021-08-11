@@ -1,0 +1,84 @@
+<h1 class="text"> Update </h1>
+
+<div style="background: lightpink">
+  <form [formGroup]="editCustomer" (ngSubmit)="updateCustomer()">
+    <div class="form-group row">
+      <label for="inputType" class="col-sm-2 col-form-label">CustomerType: </label>
+      <div>
+        <select class="form-control" id="inputType" formControlName="customerType">
+          <option *ngFor="let customerType of customerTypeList" [ngValue]="customerType">{{customerType.nameCustomerType}}</option>
+        </select>
+      </div>
+      <small *ngIf="editCustomer.controls.customerType.errors?.required && editCustomer.controls.customerType.touched"
+             class="text-danger">Vui long nhap!</small>
+    </div>
+    <div class="form-group row">
+      <label for="inputName" class="col-sm-2 col-form-label">Name: </label>
+      <div>
+        <input type="text" class="form-group" id="inputName" formControlName="name">
+      </div>
+      <small *ngIf="editCustomer.controls.name.errors?.required && editCustomer.controls.name.touched"
+             class="text-danger">Vui long nhap!</small>
+    </div>
+    <div class="form-group row">
+      <label for="inputBirt" class="col-sm-2 col-form-label">BirthDay: </label>
+      <div>
+        <mat-form-field>
+          <input [max]="maxDate" [min]="minDate" formControlName="birthDate" id="inputBirt" matInput [matDatepicker]="myDatepicker" >
+          <mat-datepicker-toggle matSuffix [for]="myDatepicker"></mat-datepicker-toggle>
+          <mat-datepicker #myDatepicker></mat-datepicker>
+        </mat-form-field>
+      </div>
+      <small *ngIf="editCustomer.controls.birthDate.errors?.required && editCustomer.controls.birthDate.touched"
+             class="text-danger">Vui long nhap!</small>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-2 col-form-label">Gender: </label>
+      <!--    <div class="col-sm-8 col-md-8 col-lg-6 col-xl-6">-->
+      <mat-radio-group aria-label="Select an option" formControlName="gender">
+        <mat-radio-button value="Male">Male</mat-radio-button>
+        <mat-radio-button value="Female">Female</mat-radio-button>
+        <mat-radio-button value="Other">Other</mat-radio-button>
+      </mat-radio-group>
+      <small *ngIf="editCustomer.controls.gender.errors?.required && editCustomer.controls.gender.touched"
+             class="text-danger">Vui long nhap!</small>
+    </div>
+    <div class="form-group row">
+      <label for="inputCard" class="col-sm-2 col-form-label">idCard: </label>
+      <div>
+        <input type="text" class="form-group" id="inputCard" formControlName="idCard">
+      </div>
+      <small *ngIf="editCustomer.controls.idCard.errors?.required && editCustomer.controls.idCard.touched"
+             class="text-danger">Vui long nhap!</small>
+    </div>
+    <div class="form-group row">
+      <label for="inputPhone" class="col-sm-2 col-form-label">Phone: </label>
+      <div>
+        <input type="text" class="form-group" id="inputPhone" formControlName="phone">
+      </div>
+      <small *ngIf="editCustomer.controls.phone.errors?.required && editCustomer.controls.phone.touched"
+             class="text-danger">Vui long nhap!</small>
+    </div>
+    <div class="form-group row">
+      <label for="inputEm" class="col-sm-2 col-form-label">Email: </label>
+      <div>
+        <input type="email"  class="form-group" formControlName="email" id="inputEm" placeholder="name@example.com">
+      </div>
+      <small *ngIf="editCustomer.controls.email.errors?.required && editCustomer.controls.email.touched"
+             class="text-danger">Vui long nhap!</small>
+    </div>
+    <div class="form-group row">
+      <label for="inputAdd" class="col-sm-2 col-form-label">Address: </label>
+      <div>
+        <input type="text" id="inputAdd" class="form-group" formControlName="address">
+      </div>
+      <small *ngIf="editCustomer.controls.address.errors?.required && editCustomer.controls.address.touched"
+             class="text-danger">Vui long nhap!</small>
+    </div>
+    <div class="container-fluid">
+      <button (click)="onSubmit(editCustomer)" type="submit" class="btn btn-success">Submit</button>
+      <a [routerLink]="['/list']" style="padding-left: 50%">Back</a>
+    </div>
+  </form>
+
+</div>

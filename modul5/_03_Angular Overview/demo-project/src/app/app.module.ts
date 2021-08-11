@@ -7,6 +7,8 @@ import { StudentInformationComponent } from './student-information/student-infor
 import { StudentListComponent } from './student-list/student-list.component';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +16,8 @@ import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
     StudentInformationComponent,
     StudentListComponent,
     ReactiveFormComponent,
+    NavbarComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

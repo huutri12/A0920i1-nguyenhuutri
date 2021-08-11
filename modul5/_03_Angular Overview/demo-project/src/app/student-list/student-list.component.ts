@@ -1,6 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {IStudent} from "../model/IStudent";
-import {studentDao} from "../repository/studentDao";
 
 @Component({
   selector: 'app-student-list',
@@ -9,11 +8,12 @@ import {studentDao} from "../repository/studentDao";
 })
 export class StudentListComponent implements OnInit {
 
-  students: IStudent[] = studentDao;
+  students: IStudent[] = null;
   parentStudentDetail: IStudent;
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
   getStudent(value){

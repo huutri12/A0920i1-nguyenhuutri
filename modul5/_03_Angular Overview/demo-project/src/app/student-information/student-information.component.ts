@@ -1,5 +1,7 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {IStudent} from "../model/IStudent";
+import {StudentService} from "../student.service";
+import {ActivatedRoute} from "@angular/router";
 
 @Component({ //Các thành phần đánh dấu bằng @ được gọi là decorator, tương đương với annotation trong spring
   selector: 'app-student-information',
@@ -7,18 +9,18 @@ import {IStudent} from "../model/IStudent";
 
 })
 export class StudentInformationComponent implements OnInit {
-  @Input()
+  idStudent;
+  studentsDe
   childStudentDetail:IStudent;
-  constructor() { }
-  @Output()
+  constructor(private studentService: StudentService,
+              private activatedRoute: ActivatedRoute) { }
   //khai bao 1 su kien
   throwCurentMark = new EventEmitter();
   ngOnInit(): void {
   }
-   changeMarkForStudent(mark: number){
-    //this.student.mark= mark;
-     this.childStudentDetail.mark = mark;
-     this.throwCurentMark.emit(mark);
-  }
 
+
+  changeMarkForStudent(value: any) {
+
+  }
 }

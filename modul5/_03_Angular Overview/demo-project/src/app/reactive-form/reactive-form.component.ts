@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {FormBuilder, FormControl, FormGroup, Validators} from "@angular/forms";
-import {studentDao} from "../repository/studentDao";
-
+import {StudentService} from "../student.service";
+import {Route, Router} from "@angular/router";
 @Component({
   selector: 'app-reactive-form',
   templateUrl: './reactive-form.component.html',
@@ -9,22 +9,21 @@ import {studentDao} from "../repository/studentDao";
 })
 export class ReactiveFormComponent implements OnInit {
 
-  createForm = FormGroup;
-  constructor( private fb: FormBuilder) {
+  constructor( private fb: FormBuilder, private studentService: StudentService, private router:Router) {
   }
-
+    createForm = this.fb.group({
+    id: [(''), Validators.required],
+    name: [(''), Validators.required],
+    age:[('')],
+    mark:[('5')],
+    avatar:[('')]
+  })
   ngOnInit(): void {
-    // @ts-ignore
-    this.createForm = this.fb.group({
-      id: [(''), Validators.required],
-      name: [(''), Validators.required],
-      age:[('')],
-      mark:[('5')],
-      avatar:[('')]
-    })
+
   }
 
   onSubmit(){
-    studentDao.unshift(this.createForm.value);
+    this.router.navigate(['/']);
+
   }
 }

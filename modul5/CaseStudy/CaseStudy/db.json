@@ -7,7 +7,7 @@
         "nameCustomerType": "Diamond"
       },
       "name": "hue",
-      "birthDate": "20/3/2001",
+      "birthDate": "2001-03-23",
       "gender": "Male",
       "idCard": 123,
       "phone": "123",
@@ -17,44 +17,44 @@
     {
       "id": 2,
       "customerType": {
-        "id": 4,
-        "nameCustomerType": "Silver"
+        "id": 2,
+        "nameCustomerType": "Platinum"
       },
-      "name": "tris",
-      "birthDate": "2001-12-12T17:00:00.000Z",
+      "name": "Tung",
+      "birthDate": "2001-03-25",
       "gender": "Male",
-      "idCard": 123,
-      "phone": "123",
-      "email": "abc@gmail.com",
-      "address": "Hai Phong"
+      "idCard": "1111111111",
+      "phone": "0123456",
+      "email": "tris@yahoo.com",
+      "address": "Ha Tinh"
     },
     {
       "id": 3,
       "customerType": {
-        "id": 4,
-        "nameCustomerType": "Silver"
+        "id": 2,
+        "nameCustomerType": "Platinum"
       },
-      "name": "trung",
-      "birthDate": "2021-08-04",
-      "gender": "Female",
-      "idCard": "323",
-      "phone": "131",
-      "email": "1qda@gmail.com",
-      "address": "Ha Noi"
+      "name": "nguyen van tai",
+      "birthDate": "2021-08-02T17:00:00.000Z",
+      "gender": "Male",
+      "idCard": "2587413692",
+      "phone": "0123654789",
+      "email": "tai@gmail.com",
+      "address": "quang binh"
     },
     {
-      "id": 4,
       "customerType": {
-        "id": 4,
-        "nameCustomerType": "Silver"
+        "id": 2,
+        "nameCustomerType": "Platinum"
       },
-      "name": "thanh",
-      "birthDate": "2021-08-05T17:00:00.000Z",
-      "gender": "Female",
-      "idCard": "10",
-      "phone": "789987",
-      "email": "thanh@gmial.com",
-      "address": "Ho Chi Minh"
+      "name": "Trang",
+      "birthDate": "2021-05-11T17:00:00.000Z",
+      "gender": "Male",
+      "idCard": "7894561230",
+      "phone": "0123654789",
+      "email": "trang@gmail.com",
+      "address": "ha noi",
+      "id": 4
     }
   ],
   "customerType": [

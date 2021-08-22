@@ -13,7 +13,8 @@ export class CustomerDeleteComponent implements OnInit {
   id: number;
   name: string;
   constructor( private customerService: CustomerService, private router: Router,
-               @Inject(MAT_DIALOG_DATA) public data: any) {
+               @Inject(MAT_DIALOG_DATA) public data: any,
+               public snackBar: MatSnackBar) {
     this.id = data.id;
     this.name = data.name;
   }
@@ -24,7 +25,7 @@ export class CustomerDeleteComponent implements OnInit {
     this.customerService.deleteCustomer(id).subscribe(
       (data) => {
         this.router.navigate(['list']);
-        alert("Done!");
+        this.snackBar.open("Delete successfully!", "Done");
       }, error => console.log(error)
 
     );

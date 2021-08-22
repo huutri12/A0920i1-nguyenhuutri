@@ -17,7 +17,7 @@ import {MatNativeDateModule} from '@angular/material/core';
 import {NgxPaginationModule, PaginatePipe} from 'ngx-pagination';
 import {Ng2OrderModule, Ng2OrderPipe} from 'ng2-order-pipe';
 import {Ng2SearchPipe, Ng2SearchPipeModule} from 'ng2-search-filter';
-import {MatSnackBar, MatSnackBarModule} from '@angular/material/snack-bar';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 
 

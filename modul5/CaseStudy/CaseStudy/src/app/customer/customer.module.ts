@@ -16,6 +16,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {NgxPaginationModule} from 'ngx-pagination';
 import {Ng2OrderModule} from 'ng2-order-pipe';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 
 
@@ -40,7 +41,8 @@ import {Ng2OrderModule} from 'ng2-order-pipe';
     MatButtonModule,
     MatPaginatorModule,
     NgxPaginationModule,
-    Ng2OrderModule
+    Ng2OrderModule,
+    MatSnackBarModule
   ]
 })
 export class CustomerModule { }

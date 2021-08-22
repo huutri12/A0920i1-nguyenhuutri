@@ -3,6 +3,8 @@ import {Customer} from '../../model/customer';
 import {CustomerService} from '../../../../service/customer/customer.service';
 import {CustomerDeleteComponent} from '../customer-delete/customer-delete.component';
 import {MatDialog} from '@angular/material/dialog';
+import {CustomerUpdateComponent} from '../customer-update/customer-update.component';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-customer-list',
@@ -31,12 +33,14 @@ export class CustomerListComponent implements OnInit {
       {data: {
           id
         },
-        width: '400px'
-      }
-    );
+        width: '400px',
+        disableClose: true,
+        panelClass: 'custom-modalbox'
+      });
     dialogRef.afterClosed().subscribe(result => {
-      console.log(`Dialog result: ${result}`);
+      console.log('The dialog was closed');
       this.ngOnInit();
+
     });
   }
 

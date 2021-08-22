@@ -1,36 +1,38 @@
-<h1 class="text"> Update </h1>
-
-<div style="background: lightpink">
-  <form [formGroup]="editCustomer" (ngSubmit)="updateCustomer()">
+<div class="jumbotron">
+  <h2>Edit & Update Form</h2>
+</div>
+<br>
+<br>
+<div>
+  <form [formGroup]="editCustomer" (ngSubmit)="updateCustomer()" class="container-md">
     <div class="form-group row">
       <label for="inputType" class="col-sm-2 col-form-label">CustomerType: </label>
       <div>
         <select class="form-control" id="inputType" formControlName="customerType">
-          <option *ngFor="let customerType of customerTypeList" [ngValue]="customerType">{{customerType.nameCustomerType}}</option>
+          <option [selected]="customerType.nameCustomerType == editCustomer.controls.customerType.value.nameCustomerType"
+                  *ngFor="let customerType of customerTypeList" [ngValue]="customerType">{{customerType.nameCustomerType}}</option>
         </select>
       </div>
-      <small *ngIf="editCustomer.controls.customerType.errors?.required && editCustomer.controls.customerType.touched"
-             class="text-danger">Vui long nhap!</small>
+      <small *ngIf="editCustomer.get('customerType').invalid && editCustomer.touched" class="text-danger">CustomerType is Invalid</small>
     </div>
     <div class="form-group row">
       <label for="inputName" class="col-sm-2 col-form-label">Name: </label>
       <div>
         <input type="text" class="form-group" id="inputName" formControlName="name">
       </div>
-      <small *ngIf="editCustomer.controls.name.errors?.required && editCustomer.controls.name.touched"
-             class="text-danger">Vui long nhap!</small>
+      <small *ngIf="editCustomer.get('name').invalid && editCustomer.touched" class="text-danger">Name is Invalid</small>
     </div>
     <div class="form-group row">
       <label for="inputBirt" class="col-sm-2 col-form-label">BirthDay: </label>
       <div>
         <mat-form-field>
+          <mat-label>Choose a date</mat-label>
           <input [max]="maxDate" [min]="minDate" formControlName="birthDate" id="inputBirt" matInput [matDatepicker]="myDatepicker" >
           <mat-datepicker-toggle matSuffix [for]="myDatepicker"></mat-datepicker-toggle>
           <mat-datepicker #myDatepicker></mat-datepicker>
         </mat-form-field>
       </div>
-      <small *ngIf="editCustomer.controls.birthDate.errors?.required && editCustomer.controls.birthDate.touched"
-             class="text-danger">Vui long nhap!</small>
+      <small *ngIf="editCustomer.get('birthDate').invalid && editCustomer.touched" class="text-danger">Date is Invalid</small>
     </div>
     <div class="form-group row">
       <label class="col-sm-2 col-form-label">Gender: </label>
@@ -40,43 +42,47 @@
         <mat-radio-button value="Female">Female</mat-radio-button>
         <mat-radio-button value="Other">Other</mat-radio-button>
       </mat-radio-group>
-      <small *ngIf="editCustomer.controls.gender.errors?.required && editCustomer.controls.gender.touched"
-             class="text-danger">Vui long nhap!</small>
+      <small *ngIf="editCustomer.get('gender').invalid && editCustomer.touched" class="text-danger"
+             class="text-danger">Gender is Invalid</small>
     </div>
     <div class="form-group row">
       <label for="inputCard" class="col-sm-2 col-form-label">idCard: </label>
       <div>
-        <input type="text" class="form-group" id="inputCard" formControlName="idCard">
+        <input type="text" class="form-group" id="inputCard" formControlName="idCard" placeholder="xxx-xxx-xxx-x">
       </div>
-      <small *ngIf="editCustomer.controls.idCard.errors?.required && editCustomer.controls.idCard.touched"
-             class="text-danger">Vui long nhap!</small>
+      <small *ngIf="editCustomer.get('idCard').invalid && editCustomer.touched" class="text-danger">ID Card is Invalid</small>
     </div>
     <div class="form-group row">
       <label for="inputPhone" class="col-sm-2 col-form-label">Phone: </label>
       <div>
-        <input type="text" class="form-group" id="inputPhone" formControlName="phone">
+        <input type="text" class="form-group" id="inputPhone" formControlName="phone" placeholder="xxx-xxx-xxx-x">
       </div>
-      <small *ngIf="editCustomer.controls.phone.errors?.required && editCustomer.controls.phone.touched"
-             class="text-danger">Vui long nhap!</small>
+      <mat-error *ngIf="editCustomer.get('phone').invalid && editCustomer.touched" class="text-danger">Phone is Invalid</mat-error><br>
+      <p class="text-danger" *ngIf="editCustomer.get('phone').invalid && (editCustomer.get('phone').dirty || editCustomer.get('phone').touched)">
+        <ng-container *ngIf="editCustomer.get('phone').hasError('required')">
+          mobile is Required!
+        </ng-container>
+        <ng-container *ngIf="editCustomer.get('phone').hasError('pattern')">
+          * Invalid mobile number.
+        </ng-container>
+      </p>
     </div>
     <div class="form-group row">
       <label for="inputEm" class="col-sm-2 col-form-label">Email: </label>
       <div>
         <input type="email"  class="form-group" formControlName="email" id="inputEm" placeholder="name@example.com">
       </div>
-      <small *ngIf="editCustomer.controls.email.errors?.required && editCustomer.controls.email.touched"
-             class="text-danger">Vui long nhap!</small>
+      <small *ngIf="editCustomer.get('email').invalid && editCustomer.touched" class="text-danger">Email is Invalid</small>
     </div>
     <div class="form-group row">
       <label for="inputAdd" class="col-sm-2 col-form-label">Address: </label>
       <div>
         <input type="text" id="inputAdd" class="form-group" formControlName="address">
       </div>
-      <small *ngIf="editCustomer.controls.address.errors?.required && editCustomer.controls.address.touched"
-             class="text-danger">Vui long nhap!</small>
+      <small  *ngIf="editCustomer.get('address').invalid && editCustomer.touched" class="text-danger">Address is Invalid</small>
     </div>
     <div class="container-fluid">
-      <button (click)="onSubmit(editCustomer)" type="submit" class="btn btn-success">Submit</button>
+      <button [disabled]="editCustomer.invalid" (click)="onSubmit(editCustomer)" type="submit" class="btn btn-success">Submit</button>
       <a [routerLink]="['/list']" style="padding-left: 50%">Back</a>
     </div>
   </form>

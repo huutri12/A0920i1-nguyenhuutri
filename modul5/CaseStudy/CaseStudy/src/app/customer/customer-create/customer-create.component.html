@@ -1,11 +1,10 @@
-<div style="background: lightpink">
-<form [formGroup]="createCustomer" (ngSubmit)="addCustomer()">
-  <!--<div class="form-group">
-    <label>ID</label>
-    <input type="number" class="form-group" formControlName="id">
-    <p *ngIf="createCustomer.controls.id.errors?.required && createCustomer.controls.id.touched"
-       class="text-danger">Vui long nhap!</p>
-  </div>-->
+<div class="jumbotron">
+  <h2>Create - Customer Form</h2>
+</div>
+<br>
+<br>
+<div>
+<form [formGroup]="createCustomer" (ngSubmit)="addCustomer()" class="container">
   <div class="form-group row">
     <label for="inputType" class="col-sm-2 col-form-label">CustomerType: </label>
     <div>
@@ -13,28 +12,26 @@
         <option *ngFor="let customerType of customerTypeList" [ngValue]="customerType">{{customerType.nameCustomerType}}</option>
       </select>
     </div>
-    <small *ngIf="createCustomer.controls.customerType.errors?.required && createCustomer.controls.customerType.touched"
-       class="text-danger">Vui long nhap!</small>
+    <small *ngIf="createCustomer.get('customerType').invalid && createCustomer.touched" class="text-danger">CustomerType is Invalid</small>
   </div>
   <div class="form-group row">
     <label for="inputName" class="col-sm-2 col-form-label">Name: </label>
     <div>
       <input type="text" class="form-group" id="inputName" formControlName="name">
     </div>
-    <small *ngIf="createCustomer.controls.name.errors?.required && createCustomer.controls.name.touched"
-       class="text-danger">Vui long nhap!</small>
+    <small *ngIf="createCustomer.get('name').invalid && createCustomer.touched" class="text-danger">Name is Invalid</small>
   </div>
   <div class="form-group row">
     <label for="inputBirt" class="col-sm-2 col-form-label">BirthDay: </label>
     <div>
       <mat-form-field>
+        <mat-label>Choose a date</mat-label>
         <input [max]="maxDate" [min]="minDate" formControlName="birthDate" id="inputBirt" matInput [matDatepicker]="myDatepicker" >
         <mat-datepicker-toggle matSuffix [for]="myDatepicker"></mat-datepicker-toggle>
         <mat-datepicker #myDatepicker></mat-datepicker>
       </mat-form-field>
     </div>
-    <small *ngIf="createCustomer.controls.birthDate.errors?.required && createCustomer.controls.birthDate.touched"
-       class="text-danger">Vui long nhap!</small>
+    <small *ngIf="createCustomer.get('birthDate').invalid && createCustomer.touched" class="text-danger">Date is Invalid</small>
   </div>
   <div class="form-group row">
     <label class="col-sm-2 col-form-label">Gender: </label>
@@ -44,41 +41,46 @@
       <mat-radio-button value="Female">Female</mat-radio-button>
       <mat-radio-button value="Other">Other</mat-radio-button>
     </mat-radio-group>
-    <small *ngIf="createCustomer.controls.gender.errors?.required && createCustomer.controls.gender.touched"
-           class="text-danger">Vui long nhap!</small>
+    <small *ngIf="createCustomer.get('gender').invalid && createCustomer.touched" class="text-danger"
+           class="text-danger">Gender is Invalid</small>
   </div>
   <div class="form-group row">
     <label for="inputCard" class="col-sm-2 col-form-label">idCard: </label>
     <div>
-      <input type="text" class="form-group" id="inputCard" formControlName="idCard">
+      <input type="text" class="form-group" id="inputCard" formControlName="idCard" placeholder="xxx-xxx-xxx-x">
     </div>
-    <small *ngIf="createCustomer.controls.idCard.errors?.required && createCustomer.controls.idCard.touched"
-       class="text-danger">Vui long nhap!</small>
+    <small *ngIf="createCustomer.get('idCard').invalid && createCustomer.touched" class="text-danger">ID Card is Invalid</small>
   </div>
   <div class="form-group row">
     <label for="inputPhone" class="col-sm-2 col-form-label">Phone: </label>
     <div>
-      <input type="text" class="form-group" id="inputPhone" formControlName="phone">
+      <input type="text" class="form-group" id="inputPhone" formControlName="phone" placeholder="xxx-xxx-xxx-x">
     </div>
-    <small *ngIf="createCustomer.controls.phone.errors?.required && createCustomer.controls.phone.touched"
-       class="text-danger">Vui long nhap!</small>
+    <mat-error *ngIf="createCustomer.get('phone').invalid && createCustomer.touched" class="text-danger">Phone is Invalid</mat-error><br>
+    <p class="text-danger" *ngIf="createCustomer.get('phone').invalid && (createCustomer.get('phone').dirty || createCustomer.get('phone').touched)">
+      <ng-container *ngIf="createCustomer.get('phone').hasError('required')">
+        mobile is Required!
+      </ng-container>
+      <ng-container *ngIf="createCustomer.get('phone').hasError('pattern')">
+        * Invalid mobile number.
+      </ng-container>
+    </p>
   </div>
   <div class="form-group row">
     <label for="inputEm" class="col-sm-2 col-form-label">Email: </label>
     <div>
       <input type="email"  class="form-group" formControlName="email" id="inputEm" placeholder="name@example.com">
     </div>
-    <small *ngIf="createCustomer.controls.email.errors?.required && createCustomer.controls.email.touched"
-       class="text-danger">Vui long nhap!</small>
+    <small *ngIf="createCustomer.get('email').invalid && createCustomer.touched" class="text-danger">Email is Invalid</small>
   </div>
   <div class="form-group row">
     <label for="inputAdd" class="col-sm-2 col-form-label">Address: </label>
     <div>
       <input type="text" id="inputAdd" class="form-group" formControlName="address">
     </div>
-    <small *ngIf="createCustomer.controls.address.errors?.required && createCustomer.controls.address.touched"
-       class="text-danger">Vui long nhap!</small>
+    <small  *ngIf="createCustomer.get('address').invalid && createCustomer.touched" class="text-danger">Address is Invalid</small>
   </div>
-  <button type="submit" class="btn btn-danger">Submit</button>
+  <button [disabled]="createCustomer.invalid" type="submit" class="btn btn-danger" >Submit</button>
+  <a [routerLink]="['/list']" style="padding-left: 50%">Back</a>
 </form>
 </div>

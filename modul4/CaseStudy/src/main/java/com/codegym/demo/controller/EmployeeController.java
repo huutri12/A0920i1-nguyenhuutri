@@ -62,57 +62,57 @@ public class EmployeeController {
         return new ModelAndView("employee/list", "employees",employeeService.findAll());
     }
 
-//    @GetMapping("/create_new_employee")
-//    public ModelAndView createEmployeePage(Model model) {
-//        return new ModelAndView("employee/create", "employee", new Employee());
-//    }
-//
-//    @PostMapping(value = "/addNewEmployee")
-//    public ModelAndView createEmployee(
-//            @ModelAttribute("usserRole") User_role user_role,
-//            @Validated @ModelAttribute("employee") Employee employee, BindingResult result){
-//
-//        System.out.println("Create");
-//        System.out.println(employee.getEmployeeName());
-//
-//        if (result.hasFieldErrors()){
-//            System.out.println("Validate error");
-//            return new ModelAndView("employee/create","employee", new Employee());
-//        }
-//
-//        System.out.println("User");
-//        User user = new User(employee.getUser().getUsername(),employee.getUser().getPassword());
-//        System.out.println(user.getUsername());
-//
-//        System.out.println("Save user");
-//        userService.save(user);
-//        System.out.println("Saved user");
-//
-//        System.out.println("Save User Role");
-//        System.out.println("Chua save dc");
-//        userRoleService.save(new User_role(user_role.getRole(),employee.getUser()));
-//        System.out.println("Saved User Role");
-//
-//
-//        Employee employee1 =  new Employee(
-//                employee.getEmployeeName(),
-//                employee.getEmployeeDate(),
-//                employee.getEmployeeIdCard(),
-//                employee.getEmployeeSalary(),
-//                employee.getEmployeePhone(),
-//                employee.getEmployeeEmail(),
-//                employee.getEmployeeAddress(),
-//                employee.getPosition()
-//                ,employee.getEducation_degree(),employee.getDivision(),employee.getUser());
-//
-//        System.out.println("Save employee");
-//        employeeService.save(employee1);
-//        System.out.println("Saved employee");
-//
-//
-//        return new ModelAndView("employee/list","employees",employeeService.findAll());
-//
-//    }
+    @GetMapping("/create_new_employee")
+   public ModelAndView createEmployeePage(Model model) {
+        return new ModelAndView("employee/create", "employee", new Employee());
+    }
+
+    @PostMapping(value = "/addNewEmployee")
+    public ModelAndView createEmployee(
+            @ModelAttribute("usserRole") User_role user_role,
+            @Validated @ModelAttribute("employee") Employee employee, BindingResult result){
+
+        System.out.println("Create");
+       System.out.println(employee.getEmployeeName());
+
+        if (result.hasFieldErrors()){
+            System.out.println("Validate error");
+            return new ModelAndView("employee/create","employee", new Employee());
+        }
+
+        System.out.println("User");
+        User user = new User(employee.getUser().getUsername(),employee.getUser().getPassword());
+        System.out.println(user.getUsername());
+
+        System.out.println("Save user");
+        userService.save(user);
+        System.out.println("Saved user");
+
+        System.out.println("Save User Role");
+        System.out.println("Chua save dc");
+        userRoleService.save(new User_role(user_role.getRole(),employee.getUser()));
+        System.out.println("Saved User Role");
+
+
+        Employee employee1 =  new Employee(
+                employee.getEmployeeName(),
+                employee.getEmployeeDate(),
+                employee.getEmployeeIdCard(),
+                employee.getEmployeeSalary(),
+                employee.getEmployeePhone(),
+                employee.getEmployeeEmail(),
+                employee.getEmployeeAddress(),
+                employee.getPosition()
+                ,employee.getEducation_degree(),employee.getDivision(),employee.getUser());
+
+        System.out.println("Save employee");
+        employeeService.save(employee1);
+        System.out.println("Saved employee");
+
+
+        return new ModelAndView("employee/list","employees",employeeService.findAll());
+
+    }
 
 
 

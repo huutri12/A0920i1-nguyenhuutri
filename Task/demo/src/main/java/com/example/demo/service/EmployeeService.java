@@ -7,8 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.UUID;
-
 @Service
 public class EmployeeService{
 
@@ -29,10 +27,10 @@ public class EmployeeService{
     public Employee updateEmployee(Employee employee){
         return employeeRepo.save(employee);
     }
-
     public Employee findEmployeeById(int id){
         return employeeRepo.findById(id).orElseThrow(() -> new UserNotFoundException("User by id " + "was not found"));
     }
+
 
     public void deleteEmployee(int id){
         employeeRepo.deleteById(id);

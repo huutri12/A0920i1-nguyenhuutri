@@ -12,7 +12,7 @@ public class EmployeeType {
 
     private String name;
 
-    @OneToMany(targetEntity = Employee.class)
+    /*@OneToMany(targetEntity = Employee.class)
     private List<Employee> employees;
 
     public List<Employee> getEmployees() {
@@ -21,7 +21,7 @@ public class EmployeeType {
 
     public void setEmployees(List<Employee> employees) {
         this.employees = employees;
-    }
+    }*/
 
     public int getTypeId() {
         return typeId;

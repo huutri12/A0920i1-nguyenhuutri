@@ -60,4 +60,6 @@ export class CustomerListComponent implements OnInit {
     this.reverse = !this.reverse;
   }
 
+
+
 }

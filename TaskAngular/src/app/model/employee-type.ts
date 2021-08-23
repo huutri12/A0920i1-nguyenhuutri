@@ -1,10 +1,10 @@
 export class EmployeeType {
   typeId : number;
-  nameCustomerType : string;
+  name : string;
 
 
   constructor(typeId: number, name: string) {
     this.typeId = typeId;
-    this.nameCustomerType = name;
+    this.name = name;
   }
 }

@@ -1,0 +1,35 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "MaEmployee": {
+        "id": 1,
+        "ma_benhan": "BA-001"
+      },
+      "name": "trung",
+      "ngay_nhapvien": "2020-05-23",
+      "ngay_ravien": "2020-08-25",
+      "lydo_nhapvien": "suy than",
+      "pp_dieutri": "chay than",
+      "bacsi_dieutri": "nguyen don"
+    }
+  ],
+  "MaEmployee": [
+    {
+      "id": 1,
+      "ma_benhan": "BA-001"
+    },
+    {
+      "id": 2,
+      "ma_benhan": "BA-112"
+    },
+    {
+      "id": 3,
+      "ma_benhan": "BA-223"
+    },
+    {
+      "id": 4,
+      "ma_benhan": "BA-153"
+    }
+  ]
+}

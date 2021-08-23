@@ -29,32 +29,18 @@
       "address": "Ha Tinh"
     },
     {
-      "id": 3,
       "customerType": {
         "id": 2,
         "nameCustomerType": "Platinum"
       },
-      "name": "nguyen van tai",
-      "birthDate": "2021-08-02T17:00:00.000Z",
+      "name": "thanh an",
+      "birthDate": "2001-08-19",
       "gender": "Male",
-      "idCard": "2587413692",
+      "idCard": "1111111111",
       "phone": "0123654789",
-      "email": "tai@gmail.com",
-      "address": "quang binh"
-    },
-    {
-      "customerType": {
-        "id": 2,
-        "nameCustomerType": "Platinum"
-      },
-      "name": "Trang",
-      "birthDate": "2021-05-11T17:00:00.000Z",
-      "gender": "Male",
-      "idCard": "7894561230",
-      "phone": "0123654789",
-      "email": "trang@gmail.com",
-      "address": "ha noi",
-      "id": 4
+      "email": "an@gmail.com",
+      "address": "quang nam",
+      "id": 3
     }
   ],
   "customerType": [
@@ -77,92 +63,6 @@
     {
       "id": 5,
       "nameCustomerType": "Member"
-    }
-  ],
-  "division": [
-    {
-      "id": 1,
-      "name": "Sale – Marketing"
-    },
-    {
-      "id": 2,
-      "name": "Hành Chính"
-    },
-    {
-      "id": 3,
-      "name": "Quản Lý"
-    },
-    {
-      "id": 4,
-      "name": "Phục Vụ"
-    }
-  ],
-  "position": [
-    {
-      "id": 1,
-      "name": "Lễ Tân"
-    },
-    {
-      "id": 2,
-      "name": "Phục Vụ"
-    },
-    {
-      "id": 3,
-      "name": "Chuyên Viên"
-    },
-    {
-      "id": 4,
-      "name": "Giám Sát"
-    },
-    {
-      "id": 5,
-      "name": "Quản Lý"
-    },
-    {
-      "id": 6,
-      "name": "Giám Đốc"
-    }
-  ],
-  "educationDegree": [
-    {
-      "id": 1,
-      "name": "Trung cấp"
-    },
-    {
-      "id": 2,
-      "name": "Cao đẳng"
-    },
-    {
-      "id": 3,
-      "name": "Đại học "
-    },
-    {
-      "id": 4,
-      "name": "Sau dại học"
-    }
-  ],
-  "employees": [
-    {
-      "id": 1,
-      "name": "abc",
-      "position": {
-        "id": 1,
-        "name": "Lễ Tân"
-      },
-      "educationDegree": {
-        "id": 4,
-        "name": "Sau dại học"
-      },
-      "division": {
-        "id": 5,
-        "name": "Quản Lý"
-      },
-      "dateOfBirth": "20/01/1993",
-      "idCard": "123",
-      "salary": 200,
-      "phoneNumber": "9371",
-      "email": "abc@gmail.com",
-      "address": "quang nam"
     }
   ]
 }

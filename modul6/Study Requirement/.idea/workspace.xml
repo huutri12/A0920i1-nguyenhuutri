@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42409552-637c-488a-91c2-f3d95eeb0fa9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/header-footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../modul2/src/B1_Introduction_JAVA/bai_tap/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/narbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../modul2/out/production/module02/META-INF/module02.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Study Requirement.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Study Requirement.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header-footer.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -29,8 +37,10 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../modul5/CaseStudy/CaseStudy" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -43,10 +53,22 @@
       <option name="presentableId" value="Default" />
       <updated>1629883699701</updated>
       <workItem from="1629883700935" duration="109000" />
+      <workItem from="1629889885791" duration="596000" />
+      <workItem from="1629892587543" duration="21568000" />
+      <workItem from="1629918057185" duration="40000" />
+      <workItem from="1629920119498" duration="1032000" />
+      <workItem from="1630412066348" duration="3386000" />
+      <workItem from="1630499369817" duration="39000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1630499406635">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1630499406635" />
   </component>
 </project>

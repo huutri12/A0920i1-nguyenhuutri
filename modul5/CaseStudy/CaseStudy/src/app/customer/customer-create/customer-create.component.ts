@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import {CustomerService} from '../../../../service/customer/customer.service';
 import {Router} from '@angular/router';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
-import {showWarningOnce} from 'tslint/lib/error';
 import {CustomerType} from '../../model/customer-type';
 import {MatSnackBar} from '@angular/material/snack-bar';
 

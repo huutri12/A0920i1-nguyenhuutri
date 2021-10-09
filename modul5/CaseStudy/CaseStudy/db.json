@@ -27,20 +27,6 @@
       "phone": "0123456",
       "email": "tris@yahoo.com",
       "address": "Ha Tinh"
-    },
-    {
-      "customerType": {
-        "id": 2,
-        "nameCustomerType": "Platinum"
-      },
-      "name": "thanh an",
-      "birthDate": "2001-08-19",
-      "gender": "Male",
-      "idCard": "1111111111",
-      "phone": "0123654789",
-      "email": "an@gmail.com",
-      "address": "quang nam",
-      "id": 3
     }
   ],
   "customerType": [

@@ -19,7 +19,7 @@ export class CustomerUpdateComponent implements OnInit {
   alert:boolean = false;
 
   public maxDate = new Date();
-  public minDate = new Date(1900, 1,1)
+  public minDate = new Date(1900, 1,1);
   editCustomer = new FormGroup({
     id: new FormControl('',[Validators.required]),
     customerType:new FormControl('',[Validators.required]),

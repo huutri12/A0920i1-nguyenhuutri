@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a2c5eb01-11cc-43f7-8e0a-1ac7ba6a4520" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../modul1/case modul 3/ad.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../modul1/case modul 3/thuchanh2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../modul1/case modul 3/vd1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../modul1/case modul 3/vd2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../modul1/case modul 3/yêsese.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/src/common/regex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/src/controller/ContractServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/src/controller/EmployeeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/src/controller/ServiceServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/src/dao/IConTractDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/src/dao/ICustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/src/dao/IEmployeeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/src/dao/IServiceDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/src/dao/imp/ContractDaoLimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/src/exception/PrintSQLException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/src/model/attach_service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/src/model/contract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/src/model/contract_detail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/src/model/customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/src/model/customer_type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/src/model/division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/src/model/education_degree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/src/model/employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/src/model/position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/src/model/rent_type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/src/model/role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/src/model/service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/src/model/service_type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/src/model/user.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/src/model/user_role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/src/untils/connectionDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/web/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/web/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/CaseStudy/web/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Demo/src/controller/DeleteStudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Demo/src/controller/EditStudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Demo/src/controller/SaveStudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Demo/src/controller/StudentListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Demo/src/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Demo/src/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Demo/src/service/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Demo/web/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Demo/web/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Demo/web/student/Edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Demo/web/student/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Demo/web/student/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Newduan/src/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Newduan/src/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Servlet/src/Controller/Convert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Servlet/src/Controller/Servlet_Time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Servlet/src/Controller/Translate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Servlet/src/Controller/login_servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Webapp/web/converter.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Webapp/web/dictionary.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/java-web-mvc/src/controller/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/java-web-mvc/src/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/java-web-mvc/src/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/java-web-mvc/src/service/CustomerServicelmpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/java-web-mvc/web/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/java-web-mvc/web/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/java-web-mvc/web/customer/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/java-web-mvc/web/customer/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/java-web-mvc/web/customer/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/java-web-mvc/web/customer/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/java-web-mvc/web/customer/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/thuchanh/b1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/thuchanh/b2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/thuchanh/tao memu doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/thuchanh/tao menu ngang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/user-manager/src/controller/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/user-manager/src/dao/IUserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/user-manager/src/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/user-manager/src/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/user-manager/web/user/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/user-manager/web/user/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/user-manager/web/user/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../modul1/JavaScript/BaiTap/doyoulove.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../modul1/JavaScript/BaiTap/doyoulove.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/module02/Gioithieu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module3/luyentaphamSQL.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module3/luyentaphamSQL.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1rn6h1LIrw9fM9yx49pUn51bKMH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2c5eb01-11cc-43f7-8e0a-1ac7ba6a4520" name="Default Changelist" comment="" />
+      <created>1619599621951</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619599621951</updated>
+      <workItem from="1619599623201" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="188" key="FileChooserDialogImpl" timestamp="1619599632969">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1619599632969" />
+  </component>
+</project>

@@ -11,7 +11,7 @@
 <head>
     <title>User Management Application</title>
 </head>
-<body>
+<body style="background: pink">
 <center>
     <h1>User Management</h1>
     <h2>
@@ -20,7 +20,7 @@
 </center>
 <div align="center">
     <form method="post">
-        <table border="1" cellpadding="5">
+        <table border="1" cellpadding="5" style="background: white">
             <caption>
                 <h2>
                     Edit User
